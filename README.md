@@ -1,5 +1,7 @@
-![VibeStack Codex Logo](../assets/logo.png)
 
+<p align="center">
+  <img src="https://github.com/iotserver24/Anisurge-apk/blob/c8781720e10b722e50ca03e48b9d37acdc983d70/img/icon.png" alt="VibeStack Codex Logo" width="150">
+</p>
 # VibeStack Codex Documentation
 
 ## Overview
