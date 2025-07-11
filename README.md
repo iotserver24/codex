@@ -1,5 +1,7 @@
-![VibeStack Codex Logo](../assets/logo.png)
 
+<p align="center">
+  <img src="https://github.com/iotserver24/codex/blob/ea7756ed0b1dc6574b8a1d9139fbdd4a9374c2ff/logo.png" alt="VibeStack Codex Logo" width="150"> 
+</p>
 # VibeStack Codex Documentation
 
 ## Overview
