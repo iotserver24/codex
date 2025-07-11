@@ -28,3 +28,34 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Custom donation button styling */
+.navbar-donate-button {
+  background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%) !important;
+  color: white !important;
+  border-radius: 25px !important;
+  padding: 8px 16px !important;
+  margin-left: 8px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3) !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
+}
+
+.navbar-donate-button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.5) !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .navbar-donate-button {
+  background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%) !important;
+  color: white !important;
+}
+
+[data-theme='dark'] .navbar-donate-button:hover {
+  color: white !important;
+}

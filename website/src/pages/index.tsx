@@ -178,7 +178,7 @@ function CTASection() {
         <div className={styles.ctaContent}>
           <Heading as="h2" className={styles.ctaTitle}>
             Ready to Transform Your Development Workflow?
-          </Heading>
+        </Heading>
           <p className={styles.ctaSubtitle}>
             Join thousands of developers who are already building faster with AI assistance
           </p>
@@ -189,12 +189,12 @@ function CTASection() {
             >
               Download VibeStack Codex
             </Link>
-            <Link 
+          <Link
               className={clsx('button', 'button--outline', 'button--lg', styles.ctaSecondary)}
               to="/docs"
             >
               View Documentation
-            </Link>
+          </Link>
           </div>
         </div>
       </div>

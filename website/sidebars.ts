@@ -20,6 +20,7 @@ const sidebars: SidebarsConfig = {
     'updates',
     'faq',
     'contributing',
+    'support',
   ],
 
   // But you can create a sidebar manually

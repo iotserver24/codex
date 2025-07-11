@@ -121,6 +121,72 @@ Get up and running in under 5 minutes:
 
 ---
 
+## 💝 **Support Our Mission**
+
+VibeStack Codex is **completely free** and always will be! We believe powerful AI development tools shouldn't be locked behind expensive subscriptions. However, maintaining and improving this platform requires significant resources.
+
+### 🌟 **How Your Support Helps**
+
+Your donations directly fund:
+
+- **🔬 Research & Development**: Integrating cutting-edge AI models and features
+- **🖥️ Infrastructure**: Servers for update delivery, documentation hosting, and community support
+- **🐛 Bug Fixes & Security**: Ensuring VibeStack Codex runs smoothly and securely
+- **📚 Documentation**: Creating comprehensive guides, tutorials, and examples
+- **🤝 Community Support**: Maintaining forums, Discord, and user assistance
+- **🚀 New Features**: Adding requested functionality and platform improvements
+
+### 💳 **Make a Difference Today**
+
+Every contribution, no matter the size, helps us keep VibeStack Codex free for developers worldwide. Your support enables us to compete with premium tools while remaining accessible to everyone.
+
+import DonationTrigger from '@site/src/components/DonationTrigger';
+
+<div style={{textAlign: 'center', margin: '2rem 0', padding: '2rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '16px', color: 'white'}}>
+  <h3 style={{color: 'white', marginBottom: '1rem'}}>🚀 Help Us Build the Future of Coding</h3>
+  <p style={{marginBottom: '1.5rem', opacity: '0.9'}}>
+    Join our mission to democratize AI-powered development tools
+  </p>
+  <DonationTrigger 
+    buttonText="💝 Donate via Razorpay"
+    buttonStyle={{
+      background: 'linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%)',
+      color: 'white',
+      padding: '1rem 2rem',
+      borderRadius: '50px',
+      border: 'none',
+      fontWeight: 'bold',
+      fontSize: '1.1rem',
+      boxShadow: '0 8px 25px rgba(255,107,107,0.4)',
+      cursor: 'pointer',
+      transition: 'all 0.3s ease'
+    }}
+  />
+</div>
+
+### 🏆 **Supporter Benefits**
+
+While VibeStack Codex remains free for everyone, we recognize our supporters:
+
+- **🌟 Community Recognition**: Listed as a supporter in our community hall of fame
+- **🎯 Priority Support**: Faster response times for bug reports and feature requests  
+- **📢 Early Access**: Get preview builds and beta features before public release
+- **🗳️ Feature Voting**: Help us prioritize which features to build next
+- **💬 Direct Access**: Join exclusive supporter-only Discord channels
+
+### 💼 **Corporate Sponsorship**
+
+Using VibeStack Codex in your business? Consider becoming a corporate sponsor! We offer:
+
+- **📊 Usage Analytics**: Insights into your team's AI development patterns
+- **🔧 Custom Integrations**: Tailored features for enterprise workflows
+- **📞 Priority Support**: Dedicated support channels and SLA guarantees
+- **🏢 Brand Recognition**: Logo placement in our documentation and app
+
+Contact us for corporate sponsorship opportunities.
+
+---
+
 ## 📋 **What's Next?**
 
 - 📖 [Getting Started Guide](/docs/getting-started)

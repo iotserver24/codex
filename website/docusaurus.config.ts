@@ -77,6 +77,12 @@ const config: Config = {
           label: 'Download',
           position: 'right',
         },
+        {
+          href: 'https://razorpay.me/@megavault',
+          label: '💝 Donate',
+          position: 'right',
+          className: 'navbar-donate-button',
+        },
       ],
     },
     footer: {
@@ -110,6 +116,10 @@ const config: Config = {
               label: 'GitHub Discussions',
               href: 'https://github.com/iotserver24/codex/discussions',
             },
+            {
+              label: 'Support Us',
+              to: '/docs/support',
+            },
           ],
         },
         {
@@ -122,6 +132,10 @@ const config: Config = {
             {
               label: 'Download',
               href: 'https://github.com/iotserver24/codex/releases',
+            },
+            {
+              label: 'Donate',
+              href: 'https://razorpay.me/@megavault',
             },
           ],
         },
