@@ -117,13 +117,33 @@ const DonationModal = ({ isOpen, onClose, showTrigger = true }) => {
 
             {/* Donation Methods */}
             <div className="donation-methods">
-              <h3>💳 Secure Payment</h3>
+              <h3>💳 Choose Your Payment Method</h3>
+              
+              {/* Razorpay Option */}
               <button className="razorpay-btn" onClick={handleDonate}>
                 <div className="payment-method">
                   <div className="payment-icon">💳</div>
                   <div className="payment-details">
                     <h4>Razorpay</h4>
                     <p>UPI • Cards • NetBanking • Wallets</p>
+                  </div>
+                  <div className="payment-arrow">→</div>
+                </div>
+              </button>
+
+              {/* Buy Me a Coffee Option */}
+              <button 
+                className="buymeacoffee-btn" 
+                onClick={() => {
+                  window.open('https://www.buymeacoffee.com/r3ap3redit', '_blank');
+                  closeModal();
+                }}
+              >
+                <div className="payment-method">
+                  <div className="payment-icon">☕</div>
+                  <div className="payment-details">
+                    <h4>Buy Me a Coffee</h4>
+                    <p>International • PayPal • Stripe • Quick & Easy</p>
                   </div>
                   <div className="payment-arrow">→</div>
                 </div>

@@ -25,10 +25,12 @@ Running a world-class AI platform involves:
 
 ### 🚀 **One-Time Donations**
 
-<div style={{textAlign: 'center', margin: '3rem 0', padding: '3rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '20px', color: 'white', boxShadow: '0 20px 60px rgba(102,126,234,0.3)'}}>
-  <h3 style={{color: 'white', marginBottom: '1rem', fontSize: '2rem'}}>🚀 Power the Future of Coding</h3>
-  <p style={{marginBottom: '2rem', opacity: '0.9', fontSize: '1.2rem'}}>
-    Every donation helps us compete with premium tools while staying free
+#### 🇮🇳 **For Indian Users - Razorpay**
+
+<div style={{textAlign: 'center', margin: '2rem 0', padding: '2rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '16px', color: 'white', boxShadow: '0 15px 40px rgba(102,126,234,0.3)'}}>
+  <h4 style={{color: 'white', marginBottom: '1rem', fontSize: '1.5rem'}}>🇮🇳 Support from India</h4>
+  <p style={{marginBottom: '1.5rem', opacity: '0.9', fontSize: '1rem'}}>
+    UPI • Cards • NetBanking • Wallets
   </p>
   <a 
     href="https://razorpay.me/@megavault" 
@@ -38,23 +40,34 @@ Running a world-class AI platform involves:
       display: 'inline-block',
       background: 'linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%)',
       color: 'white',
-      padding: '1.5rem 3rem',
-      borderRadius: '60px',
+      padding: '1rem 2rem',
+      borderRadius: '50px',
       textDecoration: 'none',
       fontWeight: 'bold',
-      fontSize: '1.3rem',
-      boxShadow: '0 10px 30px rgba(255,107,107,0.5)',
+      fontSize: '1.1rem',
+      boxShadow: '0 8px 25px rgba(255,107,107,0.5)',
       transition: 'all 0.3s ease',
-      border: 'none',
-      textTransform: 'uppercase',
-      letterSpacing: '1px'
+      border: 'none'
     }}
   >
-    💝 Donate Now via Razorpay
+    💝 Donate via Razorpay
   </a>
-  <p style={{marginTop: '1.5rem', opacity: '0.8', fontSize: '0.9rem'}}>
-    Secure payments powered by Razorpay • Support from India and worldwide
+</div>
+
+#### 🌍 **For International Users - Buy Me a Coffee**
+
+<div style={{textAlign: 'center', margin: '2rem 0', padding: '2rem', background: 'linear-gradient(135deg, #FFDD00 0%, #FF6B6B 50%, #4ECDC4 100%)', borderRadius: '16px', color: '#2c3e50', boxShadow: '0 15px 40px rgba(255,221,0,0.3)'}}>
+  <h4 style={{color: '#2c3e50', marginBottom: '1rem', fontSize: '1.5rem'}}>🌍 Global Support</h4>
+  <p style={{marginBottom: '1.5rem', opacity: '0.8', fontSize: '1rem'}}>
+    PayPal • Stripe • International Cards
   </p>
+  <a href="https://www.buymeacoffee.com/r3ap3redit" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://img.buymeacoffee.com/button-api/?text=donate to run application&emoji=🚀&slug=r3ap3redit&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" 
+      alt="Buy Me A Coffee" 
+      style={{borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.2)'}}
+    />
+  </a>
 </div>
 
 ### 🏢 **Corporate Sponsorship**

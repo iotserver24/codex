@@ -286,7 +286,8 @@
 }
 
 /* Payment Method */
-.razorpay-btn {
+.razorpay-btn,
+.buymeacoffee-btn {
   width: 100%;
   background: white;
   border: 2px solid #e9ecef;
@@ -295,6 +296,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   overflow: hidden;
+  margin-bottom: 15px;
 }
 
 .razorpay-btn:hover {
@@ -303,7 +305,14 @@
   transform: translateY(-2px);
 }
 
-[data-theme='dark'] .razorpay-btn {
+.buymeacoffee-btn:hover {
+  border-color: #FFDD00;
+  box-shadow: 0 4px 15px rgba(255, 221, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+[data-theme='dark'] .razorpay-btn,
+[data-theme='dark'] .buymeacoffee-btn {
   background: #2a2a2a;
   border-color: #444;
 }
@@ -324,6 +333,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.buymeacoffee-btn .payment-icon {
+  background: linear-gradient(135deg, #FFDD00, #FF6B6B);
+  color: #2c3e50;
 }
 
 .payment-details {
