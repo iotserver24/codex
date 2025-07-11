@@ -92,4 +92,4 @@ All Pollination AI models are free to use:
 2. **Premium Users**: Configure API keys in settings for OpenAI, Anthropic, or Google models
 3. **Local Users**: Install Ollama or LM Studio for offline AI assistance
 
-For setup instructions, see our [Getting Started](./getting-started) guide. 
+For setup instructions, see our [Getting Started](getting-started) guide. 

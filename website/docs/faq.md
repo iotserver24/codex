@@ -26,7 +26,7 @@ A: This depends on your operating system and installer type. Most installers req
 ## AI Models & Features
 
 **Q: What AI models are supported?**  
-A: See the [AI Models](./models) section for a comprehensive list of 25+ supported models.
+A: See the [AI Models](models) section for a comprehensive list of 25+ supported models.
 
 **Q: Are there free AI models available?**  
 A: Yes! Pollination AI provides 23+ free models, plus there are free tiers available for Google Gemini and OpenRouter.

@@ -34,7 +34,7 @@ slug: /
 
 ## What's Next?
 
-- 📖 [Getting Started Guide](./getting-started)
-- 🤖 [Explore AI Models](./models)
-- ❓ [Frequently Asked Questions](./faq)
-- 🚀 [Features Overview](./features)
+- 📖 [Getting Started Guide](/docs/getting-started)
+- 🤖 [Explore AI Models](/docs/models)
+- ❓ [Frequently Asked Questions](/docs/faq)
+- 🚀 [Features Overview](/docs/features)

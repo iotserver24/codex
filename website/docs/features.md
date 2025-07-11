@@ -41,4 +41,4 @@ VibeStack Codex offers a rich set of features for collaborative AI development:
 - **Terminal Integration** - Run commands directly from the app
 - **Export Options** - Save and share your work
 
-See [AI Models](./models) for a list of supported models. 
+See [AI Models](models) for a list of supported models. 

@@ -27,4 +27,4 @@ sidebar_position: 2
 ## Updates
 - VibeStack Codex will automatically check for updates and prompt you when a new version is available.
 
-For more details, see the [Features](./features) and [Update & Release Process](./updates) sections. 
+For more details, see the [Features](features) and [Update & Release Process](updates) sections. 

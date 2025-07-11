@@ -33,4 +33,4 @@ VibeStack Codex uses GitHub Releases for distributing updates automatically.
 ## Version History
 You can view the complete version history and release notes on our [GitHub Releases page](https://github.com/iotserver24/codex/releases).
 
-For more details, see the [Getting Started](./getting-started) guide. 
+For more details, see the [Getting Started](getting-started) guide. 
