@@ -202,6 +202,42 @@ function CTASection() {
   );
 }
 
+function VideoSection() {
+  return (
+    <section className={styles.videoSection}>
+      <div className="container">
+        <div className={styles.sectionHeader}>
+          <Heading as="h2" className={styles.sectionTitle}>
+            See VibeStack Codex in Action
+          </Heading>
+          <p className={styles.sectionSubtitle}>
+            Watch how VibeStack Codex transforms your development workflow
+          </p>
+        </div>
+        
+        <div className={styles.videoContainer}>
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            style={{
+              width: '100%',
+              height: 'auto',
+              borderRadius: '16px',
+              boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
+              background: '#000'
+            }}
+          >
+            <source src="https://bucket.anisurge.me/0712-02_1752326506968.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -209,6 +245,7 @@ export default function Home(): ReactNode {
       title="AI-Powered Development Platform"
       description="VibeStack Codex - Free collaborative AI development platform with 25+ AI models, intelligent codebase management, and seamless workflow automation.">
       <HeroSection />
+      <VideoSection />
       <FeaturesSection />
       <CTASection />
     </Layout>

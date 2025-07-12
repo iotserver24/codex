@@ -8,7 +8,31 @@ sidebar_position: 1
 
 **VibeStack Codex** is your free, collaborative AI development platform that empowers developers with intelligent coding assistance, seamless workflow automation, and access to 25+ AI models.
 
-## 🎯 **The Future of Vibe Coding**
+## � **See VibeStack Codex in Action**
+
+Watch this demonstration video to see how VibeStack Codex transforms your development workflow:
+
+<div style={{textAlign: 'center', margin: '2rem 0'}}>
+  <video 
+    controls 
+    width="100%" 
+    style={{
+      maxWidth: '800px',
+      borderRadius: '12px',
+      boxShadow: '0 8px 32px rgba(0,0,0,0.12)',
+      background: '#000'
+    }}
+  >
+    <source src="https://bucket.anisurge.me/0712-02_1752326506968.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+*This video showcases the key features and capabilities of VibeStack Codex in real-world usage scenarios.*
+
+---
+
+## �🎯 **The Future of Vibe Coding**
 
 VibeStack Codex is at the forefront of the **vibe coding revolution** - a new approach to software development where developers express ideas in natural language and AI transforms them into working code. This paradigm shift, popularized by computer scientist Andrej Karpathy, focuses on outcomes over syntax, creativity over boilerplate.
 
