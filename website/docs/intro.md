@@ -1,16 +1,16 @@
 ---
 slug: /
-title: Welcome to VibeStack Codex
+title: Welcome to CodeX
 sidebar_position: 1
 ---
 
-# Welcome to VibeStack Codex 🚀
+# Welcome to CodeX 🚀
 
-**VibeStack Codex** is your free, collaborative AI development platform that empowers developers with intelligent coding assistance, seamless workflow automation, and access to 25+ AI models.
+**CodeX** is your free, collaborative AI development platform that empowers developers with intelligent coding assistance, seamless workflow automation, and access to 25+ AI models.
 
-## � **See VibeStack Codex in Action**
+## **See CodeX in Action**
 
-Watch this demonstration video to see how VibeStack Codex transforms your development workflow:
+Watch this demonstration video to see how CodeX transforms your development workflow:
 
 <div style={{textAlign: 'center', margin: '2rem 0'}}>
   <video 
@@ -28,17 +28,17 @@ Watch this demonstration video to see how VibeStack Codex transforms your develo
   </video>
 </div>
 
-*This video showcases the key features and capabilities of VibeStack Codex in real-world usage scenarios.*
+*This video showcases the key features and capabilities of CodeX in real-world usage scenarios.*
 
 ---
 
-## �🎯 **The Future of Vibe Coding**
+## 🎯 **The Future of Vibe Coding**
 
-VibeStack Codex is at the forefront of the **vibe coding revolution** - a new approach to software development where developers express ideas in natural language and AI transforms them into working code. This paradigm shift, popularized by computer scientist Andrej Karpathy, focuses on outcomes over syntax, creativity over boilerplate.
+CodeX is at the forefront of the **vibe coding revolution** - a new approach to software development where developers express ideas in natural language and AI transforms them into working code. This paradigm shift, popularized by computer scientist Andrej Karpathy, focuses on outcomes over syntax, creativity over boilerplate.
 
 ### 🆚 **How We Compare to Leading Vibe Coding Tools**
 
-| Feature | **VibeStack Codex** | Cursor | Windsurf | Bolt.new | Lovable | V0.dev | GitHub Copilot | Cline | Replit |
+| Feature | **CodeX** | Cursor | Windsurf | Bolt.new | Lovable | V0.dev | GitHub Copilot | Cline | Replit |
 |---------|-------------------|--------|----------|----------|---------|---------|----------------|-------|--------|
 | **💰 Price** | ✅ **100% Free** | 💰 $20/month | 💰 $15/month | 💰 $20/month | 💰 $20/month | 💰 $20/month | 💰 $10/month | 💰 $15/month | 💰 $7/month |
 | **🤖 AI Models** | ✅ **25+ Models** | ⚠️ 4-5 models | ⚠️ 3-4 models | ⚠️ 2-3 models | ❌ Limited | ❌ GPT only | ❌ GitHub only | ⚠️ Few models | ⚠️ Limited |
@@ -53,7 +53,7 @@ VibeStack Codex is at the forefront of the **vibe coding revolution** - a new ap
 
 *Source: [Vibe Code Careers](https://www.vibecodecareers.com/vibe-coding-tools) comprehensive analysis*
 
-### 🏆 **Why VibeStack Codex Leads the Vibe Coding Revolution**
+### 🏆 **Why CodeX Leads the Vibe Coding Revolution**
 
 #### **💰 Completely Free Forever**
 - **Save $240-360/year** compared to premium alternatives
@@ -93,7 +93,7 @@ VibeStack Codex is at the forefront of the **vibe coding revolution** - a new ap
 
 ### 🚀 **Seamless Migration from Any Platform**
 
-**Switching to VibeStack Codex is effortless:**
+**Switching to CodeX is effortless:**
 
 - **From Cursor**: Keep your preferred models, gain 20+ more options
 - **From Windsurf**: Import projects, enhance with local models
@@ -105,7 +105,7 @@ VibeStack Codex is at the forefront of the **vibe coding revolution** - a new ap
 
 ### 📈 **The Vibe Coding Advantage**
 
-Based on industry analysis from [leading vibe coding tool reviews](https://blog.zumvu.com/vibe-coding-tools/), VibeStack Codex delivers:
+Based on industry analysis from [leading vibe coding tool reviews](https://blog.zumvu.com/vibe-coding-tools/), CodeX delivers:
 
 - **10x faster prototyping** compared to traditional coding
 - **90% reduction** in boilerplate code writing
@@ -121,7 +121,7 @@ Based on industry analysis from [leading vibe coding tool reviews](https://blog.
 Choose the perfect AI for each task - GPT-4 for complex logic, Claude for documentation, Gemini for analysis, or free models for experimentation. Switch instantly without changing your workflow.
 
 ### ⚡ **Intelligent Code Generation**
-Express your ideas in natural language and watch as VibeStack Codex generates complete applications, components, and functions with deep understanding of your codebase structure.
+Express your ideas in natural language and watch as CodeX generates complete applications, components, and functions with deep understanding of your codebase structure.
 
 ### 🔄 **Seamless Workflow Integration**
 Built-in Git integration, automated testing, dependency management, and deployment tools that work together seamlessly in one unified platform.
@@ -147,7 +147,7 @@ Get up and running in under 5 minutes:
 
 ## 💝 **Support Our Mission**
 
-VibeStack Codex is **completely free** and always will be! We believe powerful AI development tools shouldn't be locked behind expensive subscriptions. However, maintaining and improving this platform requires significant resources.
+CodeX is **completely free** and always will be! We believe powerful AI development tools shouldn't be locked behind expensive subscriptions. However, maintaining and improving this platform requires significant resources.
 
 ### 🌟 **How Your Support Helps**
 
@@ -155,14 +155,14 @@ Your donations directly fund:
 
 - **🔬 Research & Development**: Integrating cutting-edge AI models and features
 - **🖥️ Infrastructure**: Servers for update delivery, documentation hosting, and community support
-- **🐛 Bug Fixes & Security**: Ensuring VibeStack Codex runs smoothly and securely
+- **🐛 Bug Fixes & Security**: Ensuring CodeX runs smoothly and securely
 - **📚 Documentation**: Creating comprehensive guides, tutorials, and examples
 - **🤝 Community Support**: Maintaining forums, Discord, and user assistance
 - **🚀 New Features**: Adding requested functionality and platform improvements
 
 ### 💳 **Make a Difference Today**
 
-Every contribution, no matter the size, helps us keep VibeStack Codex free for developers worldwide. Your support enables us to compete with premium tools while remaining accessible to everyone.
+Every contribution, no matter the size, helps us keep CodeX free for developers worldwide. Your support enables us to compete with premium tools while remaining accessible to everyone.
 
 import DonationTrigger from '@site/src/components/DonationTrigger';
 
@@ -190,7 +190,7 @@ import DonationTrigger from '@site/src/components/DonationTrigger';
 
 ### 🏆 **Supporter Benefits**
 
-While VibeStack Codex remains free for everyone, we recognize our supporters:
+While CodeX remains free for everyone, we recognize our supporters:
 
 - **🌟 Community Recognition**: Listed as a supporter in our community hall of fame
 - **🎯 Priority Support**: Faster response times for bug reports and feature requests  
@@ -200,24 +200,11 @@ While VibeStack Codex remains free for everyone, we recognize our supporters:
 
 ### 💼 **Corporate Sponsorship**
 
-Using VibeStack Codex in your business? Consider becoming a corporate sponsor! We offer:
+Using CodeX in your business? Consider becoming a corporate sponsor! We offer:
 
 - **📊 Usage Analytics**: Insights into your team's AI development patterns
 - **🔧 Custom Integrations**: Tailored features for enterprise workflows
 - **📞 Priority Support**: Dedicated support channels and SLA guarantees
 - **🏢 Brand Recognition**: Logo placement in our documentation and app
 
-Contact us for corporate sponsorship opportunities.
-
----
-
-## 📋 **What's Next?**
-
-- 📖 [Getting Started Guide](/docs/getting-started)
-- 🤖 [Explore AI Models](/docs/models)
-- ❓ [Frequently Asked Questions](/docs/faq)
-- 🚀 [Features Overview](/docs/features)
-
----
-
-**Ready to join the vibe coding revolution?** Download VibeStack Codex today and experience the future of AI-powered development! 🎉
+**Ready to join the vibe coding revolution?** Download CodeX today and experience the future of AI-powered development! 🎉

@@ -16,11 +16,36 @@ const sidebars: SidebarsConfig = {
     'intro',
     'getting-started',
     'features',
-    'models',
-    'updates',
-    'faq',
-    'contributing',
-    'support',
+    {
+      type: 'category',
+      label: 'Core Features',
+      items: [
+        'ai-models',
+        'chat-development',
+        'project-templates',
+        'git-integration',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Integrations',
+      items: [
+        'environment-variables',
+        'vercel-integration',
+        // 'supabase-integration', // Coming in future release
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Reference',
+      items: [
+        'models',
+        'updates',
+        'faq',
+        'contributing',
+        'support',
+      ],
+    },
   ],
 
   // But you can create a sidebar manually

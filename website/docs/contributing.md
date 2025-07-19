@@ -2,9 +2,9 @@
 sidebar_position: 7
 ---
 
-# Contributing to VibeStack Codex Documentation
+# Contributing to CodeX Documentation
 
-We welcome contributions to the documentation! While the VibeStack Codex application itself is closed source, we encourage community contributions to help improve the documentation for all users.
+We welcome contributions to the documentation! While the CodeX application itself is closed source, we encourage community contributions to help improve the documentation for all users.
 
 ## What You Can Contribute
 
@@ -72,7 +72,7 @@ For new pages or significant changes:
 
 ## What We Don't Accept
 
-Since VibeStack Codex is closed source, we cannot accept:
+Since CodeX is closed source, we cannot accept:
 - Code contributions to the main application
 - Feature requests requiring code changes
 - Bug reports about the application itself (please use GitHub Issues instead)
@@ -108,4 +108,4 @@ By contributing, you agree to:
 
 ---
 
-Thank you for helping make VibeStack Codex documentation better for everyone! 🎉 
+Thank you for helping make CodeX documentation better for everyone! 🎉 

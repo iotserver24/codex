@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Features
 
-VibeStack Codex offers a rich set of features for collaborative AI development:
+CodeX offers a rich set of features for collaborative AI development:
 
 ## Multi-Model Support
 - Choose from a variety of AI models (OpenAI, Mistral, DeepSeek, etc.)

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Supported AI Models
 
-VibeStack Codex supports a wide range of AI models from multiple providers. Below is a comprehensive list organized by provider:
+CodeX supports a wide range of AI models from multiple providers. Below is a comprehensive list organized by provider:
 
 ## Free Providers 🆓
 

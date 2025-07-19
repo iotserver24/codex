@@ -6,14 +6,14 @@ sidebar_position: 6
 
 ## General Questions
 
-**Q: Is VibeStack Codex open source?**  
-A: No, VibeStack Codex is closed source but completely free to use.
+**Q: Is CodeX open source?**  
+A: No, CodeX is closed source but completely free to use.
 
 **Q: How much does it cost?**  
-A: VibeStack Codex is completely free to download and use. Some AI models may require API keys and billing with their providers.
+A: CodeX is completely free to download and use. Some AI models may require API keys and billing with their providers.
 
 **Q: What operating systems are supported?**  
-A: VibeStack Codex supports Windows, macOS, and Linux.
+A: CodeX supports Windows, macOS, and Linux.
 
 ## Updates & Installation
 
@@ -32,7 +32,7 @@ A: See the [AI Models](models) section for a comprehensive list of 25+ supported
 A: Yes! Pollination AI provides 23+ free models, plus there are free tiers available for Google Gemini and OpenRouter.
 
 **Q: Can I use local AI models?**  
-A: Yes, VibeStack Codex supports Ollama and LM Studio for running models locally on your machine.
+A: Yes, CodeX supports Ollama and LM Studio for running models locally on your machine.
 
 ## Privacy & Security
 
@@ -40,7 +40,7 @@ A: Yes, VibeStack Codex supports Ollama and LM Studio for running models locally
 A: No, unless you specifically choose to use a cloud AI model. All local operations are completely private.
 
 **Q: What data is collected?**  
-A: VibeStack Codex has minimal telemetry that can be disabled. No code or chat content is ever transmitted.
+A: CodeX has minimal telemetry that can be disabled. No code or chat content is ever transmitted.
 
 **Q: Is it safe to use with proprietary code?**  
 A: Yes, your code stays local unless you explicitly use cloud AI models. Even then, only the content you choose to send is transmitted.
@@ -59,13 +59,13 @@ A: You can join discussions on our [GitHub Discussions page](https://github.com/
 ## Technical Questions
 
 **Q: What are the system requirements?**  
-A: VibeStack Codex requires Node.js 20+ and runs on modern Windows, macOS, and Linux systems.
+A: CodeX requires Node.js 20+ and runs on modern Windows, macOS, and Linux systems.
 
 **Q: Can I use it offline?**  
-A: Yes, with local AI models (Ollama, LM Studio) you can use VibeStack Codex completely offline.
+A: Yes, with local AI models (Ollama, LM Studio) you can use CodeX completely offline.
 
 **Q: Does it integrate with my existing IDE?**  
-A: VibeStack Codex is a standalone application with its own editor, but you can import and export projects easily.
+A: CodeX is a standalone application with its own editor, but you can import and export projects easily.
 
 ---
 
