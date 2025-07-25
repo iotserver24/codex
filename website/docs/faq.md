@@ -29,7 +29,7 @@ A: This depends on your operating system and installer type. Most installers req
 A: See the [AI Models](models) section for a comprehensive list of 25+ supported models.
 
 **Q: Are there free AI models available?**  
-A: Yes! Pollination AI provides 23+ free models, plus there are free tiers available for Google Gemini and OpenRouter.
+A: Yes! CodeX Provider offers 23+ free models, plus there are free tiers available for Google Gemini and OpenRouter.
 
 **Q: Can I use local AI models?**  
 A: Yes, CodeX supports Ollama and LM Studio for running models locally on your machine.

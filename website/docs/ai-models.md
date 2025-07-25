@@ -20,8 +20,8 @@ CodeX's multi-model approach allows you to:
 
 ### Free Providers 🆓
 
-#### Pollination AI (Free)
-All Pollination AI models are free to use:
+#### CodeX Provider (Free)
+All CodeX Provider models are free to use:
 
 | Model Name          | Description                                 | Features     |
 |---------------------|---------------------------------------------|--------------|
@@ -221,7 +221,7 @@ ollama list
 - **Powerful Models**: claude-sonnet-4-20250514, claude-3-7-sonnet-latest
 
 ### Cost Optimization
-- **Free Models**: All Pollination AI models, Local models
+- **Free Models**: All CodeX Provider models, Local models
 - **Cost-Effective**: gpt-4.1-mini, claude-3-5-haiku-20241022
 - **Premium Models**: gpt-4.1, claude-sonnet-4-20250514
 
@@ -246,7 +246,7 @@ ollama list
 - **Context**: Long context window support
 - **Turbo Edits**: Enhanced code editing
 
-### Pollination AI Capabilities
+### CodeX Provider Capabilities
 - **Free Access**: No API key required
 - **Diverse Models**: Vision, audio, reasoning, tools
 - **Good Performance**: Suitable for most tasks
@@ -291,7 +291,7 @@ ollama list
 ## Best Practices
 
 ### Model Selection
-1. **Start with Free Models**: Use Pollination AI models - no setup required
+1. **Start with Free Models**: Use CodeX Provider models - no setup required
 2. **Upgrade for Complex Tasks**: Use gpt-4.1 or claude-sonnet-4-20250514 for difficult problems
 3. **Use Local Models for Privacy**: When data sensitivity is high
 4. **Experiment with Different Models**: Test various options for your use case
@@ -351,7 +351,7 @@ const ollamaConfig = {
 
 ## Getting Started with Models
 
-1. **Free Users**: Start with Pollination AI models - no setup required!
+1. **Free Users**: Start with CodeX Provider models - no setup required!
 2. **Premium Users**: Configure API keys in settings for OpenAI, Anthropic, or Google models
 3. **Local Users**: Install Ollama or LM Studio for offline AI assistance
 

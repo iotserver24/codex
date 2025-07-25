@@ -1,14 +1,12 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
 function HeroSection() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <section className={styles.hero}>
       <div className={styles.heroBackground}>
@@ -105,7 +103,7 @@ function FeaturesSection() {
     {
       icon: '🤖',
       title: 'AI-Powered Coding',
-      description: 'Leverage 25+ AI models including GPT-4, Claude, Gemini, and free Pollination AI models for intelligent code generation and assistance.',
+      description: 'Leverage 25+ AI models including GPT-4, Claude, Gemini, and free CodeX Provider models for intelligent code generation and assistance.',
       gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
     },
     {
@@ -239,7 +237,6 @@ function VideoSection() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title="AI-Powered Development Platform"
