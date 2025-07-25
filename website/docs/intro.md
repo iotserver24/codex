@@ -66,7 +66,7 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 - **OpenAI**: GPT-4, GPT-3.5 Turbo, GPT-4 Turbo
 - **Anthropic**: Claude 3.5 Sonnet, Claude 3 Haiku, Claude 3 Opus
 - **Google**: Gemini Pro, Gemini Flash, Gemini Pro 2.5
-- **Free Models**: CodeX Provider suite, Llama, Mistral
+- **Free Models**: Pollination AI suite, Llama, Mistral
 - **Local Models**: Ollama, LM Studio integration
 - **Switch models instantly** based on task requirements
 

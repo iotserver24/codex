@@ -8,8 +8,8 @@ CodeX supports a wide range of AI models from multiple providers. Below is a com
 
 ## Free Providers 🆓
 
-### CodeX Provider (Free)
-All CodeX Provider models are free to use:
+### Pollination AI (Free)
+All Pollination AI models are free to use:
 
 | Model Name          | Description                                 | Features     |
 |---------------------|---------------------------------------------|--------------|
@@ -88,7 +88,7 @@ All CodeX Provider models are free to use:
 
 ## Getting Started with Models
 
-1. **Free Users**: Start with CodeX Provider models - no setup required!
+1. **Free Users**: Start with Pollination AI models - no setup required!
 2. **Premium Users**: Configure API keys in settings for OpenAI, Anthropic, or Google models
 3. **Local Users**: Install Ollama or LM Studio for offline AI assistance
 
