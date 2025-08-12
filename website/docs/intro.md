@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Welcome to CodeX 🚀
 
-**CodeX** is your free, collaborative AI development platform that empowers developers with intelligent coding assistance, seamless workflow automation, and access to 25+ AI models.
+**CodeX** is your free, collaborative AI development platform that empowers developers with intelligent coding assistance, seamless workflow automation, and access to 40+ AI models.
 
 ## **See CodeX in Action**
 
@@ -41,7 +41,7 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 | Feature | **CodeX** | Cursor | Windsurf | Bolt.new | Lovable | V0.dev | GitHub Copilot | Cline | Replit |
 |---------|-------------------|--------|----------|----------|---------|---------|----------------|-------|--------|
 | **💰 Price** | ✅ **100% Free** | 💰 $20/month | 💰 $15/month | 💰 $20/month | 💰 $20/month | 💰 $20/month | 💰 $10/month | 💰 $15/month | 💰 $7/month |
-| **🤖 AI Models** | ✅ **25+ Models** | ⚠️ 4-5 models | ⚠️ 3-4 models | ⚠️ 2-3 models | ❌ Limited | ❌ GPT only | ❌ GitHub only | ⚠️ Few models | ⚠️ Limited |
+| **🤖 AI Models** | ✅ **40+ Models** | ⚠️ 4-5 models | ⚠️ 3-4 models | ⚠️ 2-3 models | ❌ Limited | ❌ GPT only | ❌ GitHub only | ⚠️ Few models | ⚠️ Limited |
 | **🖥️ Platform** | ✅ **Desktop App** | ✅ Desktop | ✅ Desktop | ❌ Browser only | ❌ Browser only | ❌ Browser only | ❌ IDE plugin | ✅ Desktop | ❌ Browser only |
 | **🔒 Privacy** | ✅ **Local-first** | ⚠️ Mixed | ⚠️ Mixed | ❌ Cloud-based | ❌ Cloud-based | ❌ Cloud-based | ❌ Cloud-based | ✅ Local-first | ❌ Cloud-based |
 | **📱 Offline Mode** | ✅ **Yes** | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No |
@@ -50,6 +50,8 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 | **📊 Skill Level** | ✅ **All levels** | Advanced | Advanced | Beginner | Beginner | Beginner | Advanced | Advanced | Beginner |
 | **🚀 Agent Mode** | ✅ **Advanced** | ✅ Yes | ✅ Yes | ⚠️ Partial | ⚠️ Partial | ❌ No | ❌ No | ⚠️ Basic | ⚠️ Basic |
 | **📋 GitHub Sync** | ✅ **2-way** | ✅ Yes | ⚠️ Limited | ❌ No | ✅ Yes | ❌ No | ✅ Yes | ❌ No | ✅ Yes |
+| **☁️ Vercel Deploy** | ✅ **Direct** | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No |
+| **🗄️ Database** | ✅ **Supabase** | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No |
 
 *Source: [Vibe Code Careers](https://www.vibecodecareers.com/vibe-coding-tools) comprehensive analysis*
 
@@ -62,12 +64,13 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 - **ROI**: Immediate cost savings from day one
 
 #### **🤖 Unmatched AI Model Selection**
-- **25+ AI models** vs competitors' 2-5 models
-- **OpenAI**: GPT-4, GPT-3.5 Turbo, GPT-4 Turbo
-- **Anthropic**: Claude 3.5 Sonnet, Claude 3 Haiku, Claude 3 Opus
-- **Google**: Gemini Pro, Gemini Flash, Gemini Pro 2.5
-- **Free Models**: Pollination AI suite, Llama, Mistral
+- **40+ AI models** vs competitors' 2-5 models
+- **OpenAI**: GPT-5, GPT-4o, GPT-4.1, GPT-4.1-mini, GPT-4.1-nano
+- **Anthropic**: Claude 4 Sonnet, Claude 3.7 Sonnet, Claude 3.5 Sonnet, Claude 3.5 Haiku
+- **Google**: Gemini 2.5 Pro, Gemini 2.5 Flash
+- **CodeX Provider**: 24+ free models including vision, audio, reasoning, and tools models
 - **Local Models**: Ollama, LM Studio integration
+- **CodeX Auto**: Intelligent automatic model selection
 - **Switch models instantly** based on task requirements
 
 #### **🔒 Privacy-First Architecture**
@@ -91,11 +94,146 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 - **Mobile**: React Native, Flutter support
 - **Full-stack project scaffolding**
 
-### 🚀 **Seamless Migration from Any Platform**
+---
+
+## 🚀 **Powerful Integrations & Deployments**
+
+### ☁️ **Vercel Integration - Deploy Instantly**
+
+CodeX provides seamless **one-click deployment** to Vercel, making it the only vibe coding tool with direct cloud deployment capabilities:
+
+#### **Features:**
+- **🚀 One-Click Deploy**: Deploy your entire project to Vercel with a single click
+- **🔄 Auto-Sync**: Automatic synchronization between CodeX and Vercel
+- **📊 Live Preview**: Get instant live URLs for your deployed applications
+- **🛠️ Environment Variables**: Manage environment variables directly in CodeX
+- **📈 Analytics**: View deployment analytics and performance metrics
+- **🔄 Auto-Redeploy**: Automatic redeployment on code changes
+- **🌍 Global CDN**: Your apps are deployed to Vercel's global edge network
+
+#### **Supported Frameworks:**
+- **Next.js**: Full-stack React applications
+- **React**: Single-page applications
+- **Vue.js**: Progressive web applications
+- **Angular**: Enterprise applications
+- **Svelte**: Lightweight applications
+- **Static Sites**: HTML, CSS, JavaScript
+- **API Routes**: Serverless functions
+- **Full-Stack**: Database + Frontend + API
+
+#### **Deployment Process:**
+1. **Connect Vercel**: Link your Vercel account in CodeX settings
+2. **Build Project**: CodeX automatically builds your project
+3. **Deploy**: One-click deployment to Vercel
+4. **Live URL**: Get instant access to your deployed application
+5. **Monitor**: Track performance and analytics
+
+### 🗄️ **Supabase Integration - Database & Backend**
+
+**Coming Soon!** CodeX will include full Supabase integration for complete backend-as-a-service:
+
+#### **Planned Features:**
+- **📊 Database Management**: Create and manage Supabase databases
+- **🔐 Authentication**: Built-in user authentication and authorization
+- **📝 Real-time**: Real-time database subscriptions
+- **🛡️ Row Level Security**: Advanced security policies
+- **📈 Analytics**: Database analytics and insights
+- **🔄 Migrations**: Database schema migrations
+- **🔍 Query Builder**: Visual SQL query builder
+- **📱 API Generation**: Automatic REST and GraphQL API generation
+
+### 🔗 **GitHub Integration - Version Control**
+
+Complete GitHub integration for professional development workflows:
+
+#### **Features:**
+- **📂 Repository Management**: Create, clone, and manage GitHub repositories
+- **🔄 Git Operations**: Commit, push, pull, and branch operations
+- **🤝 Collaboration**: Team collaboration with pull requests and reviews
+- **📊 Issue Tracking**: Create and manage GitHub issues
+- **🚀 Actions**: GitHub Actions integration for CI/CD
+- **📋 Projects**: GitHub Projects for project management
+- **🔍 Code Search**: Search across repositories
+- **📈 Insights**: Repository analytics and insights
+
+### 🛠️ **Development Tools Integration**
+
+#### **Built-in Terminal**
+- **💻 Full Terminal**: Complete terminal access within CodeX
+- **📦 Package Management**: npm, yarn, pnpm support
+- **🔧 Build Tools**: Webpack, Vite, Rollup integration
+- **🐳 Docker**: Docker container management
+- **☸️ Kubernetes**: K8s deployment support
+
+#### **Code Editor**
+- **🎨 Syntax Highlighting**: Support for 100+ programming languages
+- **🔍 IntelliSense**: Intelligent code completion and suggestions
+- **🐛 Debugging**: Built-in debugging capabilities
+- **📝 Formatting**: Automatic code formatting
+- **🔍 Search & Replace**: Advanced search functionality
+
+#### **Project Templates**
+- **⚡ Quick Start**: Pre-configured project templates
+- **🎯 Framework Templates**: React, Vue, Angular, Svelte, Next.js
+- **📱 Mobile Templates**: React Native, Flutter
+- **🔧 Backend Templates**: Node.js, Python, Go, Rust
+- **🎨 UI Templates**: Tailwind CSS, Material-UI, Chakra UI
+
+---
+
+## 🎨 **Advanced Features**
+
+### 🤖 **AI-Powered Development**
+
+#### **Code Generation**
+- **📝 Natural Language to Code**: Describe what you want, get working code
+- **🔧 Code Refactoring**: Intelligent code restructuring and optimization
+- **🐛 Bug Fixing**: Automatic error detection and correction
+- **📚 Documentation**: Generate comprehensive documentation
+- **🧪 Testing**: Create unit tests and integration tests
+
+#### **Turbo Edits**
+- **⚡ Smart Refactoring**: AI-powered code restructuring
+- **🎯 Context Awareness**: Understands your entire codebase
+- **📁 Multi-file Edits**: Make changes across multiple files
+- **🔍 Error Correction**: Automatic bug fixes and improvements
+- **📈 Performance Optimization**: Code performance improvements
+
+### 🔒 **Security & Privacy**
+
+#### **Data Protection**
+- **🔐 Local Processing**: Process data locally when possible
+- **🔒 Encrypted Storage**: Secure storage of sensitive data
+- **🔑 API Key Security**: Secure handling of API keys
+- **🛡️ Privacy Controls**: Granular privacy and data sharing controls
+
+#### **Access Control**
+- **👤 User Authentication**: Secure user authentication
+- **🔐 Permission Management**: Role-based access control
+- **📊 Audit Logging**: Comprehensive audit trails
+- **🔍 Security Monitoring**: Real-time security monitoring
+
+### 📱 **Mobile Development**
+
+#### **Cross-Platform Support**
+- **📱 React Native**: Full React Native development support
+- **🦋 Flutter**: Complete Flutter development environment
+- **🌐 Progressive Web Apps**: PWA development capabilities
+- **📱 Native Apps**: iOS and Android native development
+
+#### **Mobile Features**
+- **📱 Device Simulation**: Test on virtual devices
+- **📊 Performance Monitoring**: Mobile app performance tracking
+- **🔧 Debug Tools**: Mobile-specific debugging tools
+- **📦 App Packaging**: Build and package mobile applications
+
+---
+
+## 🚀 **Seamless Migration from Any Platform**
 
 **Switching to CodeX is effortless:**
 
-- **From Cursor**: Keep your preferred models, gain 20+ more options
+- **From Cursor**: Keep your preferred models, gain 35+ more options
 - **From Windsurf**: Import projects, enhance with local models
 - **From Bolt.new**: Expand beyond frontend to full-stack development
 - **From Lovable**: Build React apps with better model variety
@@ -105,106 +243,67 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 
 ### 📈 **The Vibe Coding Advantage**
 
-Based on industry analysis from [leading vibe coding tool reviews](https://blog.zumvu.com/vibe-coding-tools/), CodeX delivers:
+#### **Productivity Boost**
+- **10x Faster Development**: AI-assisted coding accelerates development
+- **Reduced Errors**: AI catches bugs and suggests improvements
+- **Better Code Quality**: AI ensures best practices and patterns
+- **Faster Learning**: Learn new technologies with AI guidance
 
-- **10x faster prototyping** compared to traditional coding
-- **90% reduction** in boilerplate code writing
-- **5x more AI model options** than closest competitor
-- **100% cost savings** vs subscription-based alternatives
-- **Zero vendor lock-in** with local-first architecture
+#### **Cost Savings**
+- **Free Forever**: No monthly subscriptions or usage limits
+- **No Infrastructure Costs**: Vercel handles hosting and scaling
+- **Reduced Development Time**: Faster project completion
+- **Lower Maintenance**: AI helps maintain and update code
 
----
-
-## 🌟 **Core Features**
-
-### 🤖 **Multi-Model AI Assistant**
-Choose the perfect AI for each task - GPT-4 for complex logic, Claude for documentation, Gemini for analysis, or free models for experimentation. Switch instantly without changing your workflow.
-
-### ⚡ **Intelligent Code Generation**
-Express your ideas in natural language and watch as CodeX generates complete applications, components, and functions with deep understanding of your codebase structure.
-
-### 🔄 **Seamless Workflow Integration**
-Built-in Git integration, automated testing, dependency management, and deployment tools that work together seamlessly in one unified platform.
-
-### 🎯 **Context-Aware Development**
-Advanced codebase analysis provides relevant suggestions and maintains consistency across your entire project, understanding both local context and broader architecture.
-
-### 🔧 **Extensible Architecture**
-Plugin system for custom integrations, support for both local and cloud models, and comprehensive APIs for extending functionality to meet your specific needs.
+#### **Professional Features**
+- **Enterprise Security**: Bank-level security for your code
+- **Team Collaboration**: Built-in collaboration tools
+- **Version Control**: Professional Git integration
+- **Deployment Automation**: One-click deployment workflows
 
 ---
 
-## 🚀 **Quick Start**
+## 🎯 **Perfect For Every Developer**
 
-Get up and running in under 5 minutes:
+### 👨‍💻 **Individual Developers**
+- **Freelancers**: Build client projects faster
+- **Startup Founders**: Rapidly prototype and iterate
+- **Students**: Learn coding with AI assistance
+- **Hobbyists**: Explore new technologies easily
 
-1. **Download**: Get the latest release from our [GitHub repository](https://github.com/iotserver24/codex/releases)
-2. **Install**: Run the installer for your platform (Windows, macOS, Linux)
-3. **Configure**: Add your AI API keys (optional - many models work without keys)
-4. **Create**: Start your first AI-powered vibe coding project
+### 👥 **Teams & Companies**
+- **Startups**: Accelerate product development
+- **Agencies**: Deliver projects faster
+- **Enterprises**: Improve developer productivity
+- **Open Source**: Contribute to projects efficiently
+
+### 🎓 **Learning & Education**
+- **Coding Bootcamps**: Enhanced learning experience
+- **Universities**: Modern development curriculum
+- **Self-Learners**: AI-guided learning paths
+- **Career Changers**: Smooth transition to development
 
 ---
 
-## 💝 **Support Our Mission**
+## 🚀 **Get Started Today**
 
-CodeX is **completely free** and always will be! We believe powerful AI development tools shouldn't be locked behind expensive subscriptions. However, maintaining and improving this platform requires significant resources.
+### **Download & Install**
+1. **Download CodeX**: Get the latest version from [GitHub Releases](https://github.com/iotserver24/codex/releases)
+2. **Install**: Run the installer for your operating system
+3. **Launch**: Start coding with AI assistance immediately
 
-### 🌟 **How Your Support Helps**
+### **First Steps**
+1. **Choose Your Model**: Start with free models or configure premium ones
+2. **Import Your Project**: Import existing code or start a new project
+3. **Start Chatting**: Begin chatting with AI to get help with your code
+4. **Deploy**: Deploy your first project to Vercel with one click
 
-Your donations directly fund:
+### **Join the Community**
+- **Discord**: [Join our Discord community](https://discord.gg/codex)
+- **GitHub**: [Star us on GitHub](https://github.com/iotserver24/codex)
+- **Twitter**: [Follow us on Twitter](https://twitter.com/codex_ai)
+- **Documentation**: [Read our docs](https://codex.anishkumar.tech/docs)
 
-- **🔬 Research & Development**: Integrating cutting-edge AI models and features
-- **🖥️ Infrastructure**: Servers for update delivery, documentation hosting, and community support
-- **🐛 Bug Fixes & Security**: Ensuring CodeX runs smoothly and securely
-- **📚 Documentation**: Creating comprehensive guides, tutorials, and examples
-- **🤝 Community Support**: Maintaining forums, Discord, and user assistance
-- **🚀 New Features**: Adding requested functionality and platform improvements
+---
 
-### 💳 **Make a Difference Today**
-
-Every contribution, no matter the size, helps us keep CodeX free for developers worldwide. Your support enables us to compete with premium tools while remaining accessible to everyone.
-
-import DonationTrigger from '@site/src/components/DonationTrigger';
-
-<div style={{textAlign: 'center', margin: '2rem 0', padding: '2rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '16px', color: 'white'}}>
-  <h3 style={{color: 'white', marginBottom: '1rem'}}>🚀 Help Us Build the Future of Coding</h3>
-  <p style={{marginBottom: '1.5rem', opacity: '0.9'}}>
-    Join our mission to democratize AI-powered development tools
-  </p>
-  <DonationTrigger 
-    buttonText="💝 Donate via Razorpay"
-    buttonStyle={{
-      background: 'linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%)',
-      color: 'white',
-      padding: '1rem 2rem',
-      borderRadius: '50px',
-      border: 'none',
-      fontWeight: 'bold',
-      fontSize: '1.1rem',
-      boxShadow: '0 8px 25px rgba(255,107,107,0.4)',
-      cursor: 'pointer',
-      transition: 'all 0.3s ease'
-    }}
-  />
-</div>
-
-### 🏆 **Supporter Benefits**
-
-While CodeX remains free for everyone, we recognize our supporters:
-
-- **🌟 Community Recognition**: Listed as a supporter in our community hall of fame
-- **🎯 Priority Support**: Faster response times for bug reports and feature requests  
-- **📢 Early Access**: Get preview builds and beta features before public release
-- **🗳️ Feature Voting**: Help us prioritize which features to build next
-- **💬 Direct Access**: Join exclusive supporter-only Discord channels
-
-### 💼 **Corporate Sponsorship**
-
-Using CodeX in your business? Consider becoming a corporate sponsor! We offer:
-
-- **📊 Usage Analytics**: Insights into your team's AI development patterns
-- **🔧 Custom Integrations**: Tailored features for enterprise workflows
-- **📞 Priority Support**: Dedicated support channels and SLA guarantees
-- **🏢 Brand Recognition**: Logo placement in our documentation and app
-
-**Ready to join the vibe coding revolution?** Download CodeX today and experience the future of AI-powered development! 🎉
+**Ready to revolutionize your development workflow? Download CodeX today and experience the future of AI-powered coding! 🚀**
