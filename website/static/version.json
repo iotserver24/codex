@@ -2,7 +2,7 @@
   "stable": {
     "version": "1.0.2",
     "downloadUrl": "https://github.com/iotserver24/codex/releases/latest",
-    "releaseNotes": "Major update with Vercel integration, Smart Context, Auto Error Fixing, and Turbo Edits..."
+    "releaseNotes": "Major update with Smart Context, Auto Error Fixing, and Turbo Edits..."
   },
   "beta": {
     "version": "1.0.4", 
