@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # AI Models & Providers
 
-CodeX supports 40+ AI models across multiple providers, giving you unparalleled flexibility for different coding tasks and requirements.
+CodeX supports 50+ AI models across multiple providers, giving you unparalleled flexibility for different coding tasks and requirements.
 
 ## Overview
 
@@ -26,27 +26,35 @@ All CodeX Provider models are free to use:
 
 | Model Name          | Description                                 | Features     |
 |---------------------|---------------------------------------------|--------------|
-| bidara              | BIDARA - Biomimetic Designer by NASA        | Vision       |
-| deepseek            | DeepSeek-V3                                 | -            |
+| claude              | Claude 3.5 Haiku (Bedrock)                  | -            |
 | deepseek-reasoning  | DeepSeek R1-0528 reasoning model            | Reasoning    |
-| elixposearch        | ElixpoSearch - Custom search-enhanced AI    | -            |
-| evil                | Evil (Uncensored model)                     | Vision       |
-| grok                | xAi Grok-3 Mini                             | Tools        |
-| hypnosis-tracy      | Hypnosis Tracy 7B                           | Audio        |
+| gemini              | Gemini 2.5 Flash Lite (api.navy)            | Tools        |
+| glm                 | GLM-4 9B Chat (Intelligence.io)              | -            |
+| gpt-5-nano          | OpenAI GPT-5 Nano                           | -            |
+| llama-fast-roblox   | Llama 3.2 1B                                | Vision/Tools |
+| llama-roblox        | Llama 3.1 8B Instruct (Nebius)              | Tools        |
 | llamascout          | Llama 4 Scout 17B                           | -            |
-| midijourney         | Midijourney                                 | Tools        |
-| mirexa              | Mirexa AI Companion (GPT-4.1)               | Vision       |
 | mistral             | Mistral Small 3.1 24B                       | Vision/Tools |
-| openai              | GPT-4.1-mini                                | Vision/Tools |
-| openai-audio        | GPT-4o-audio-preview                        | Audio        |
-| openai-fast         | GPT-4.1-nano                                | Vision       |
+| mistral-nemo-roblox | Mistral Nemo Instruct 2407 (Nebius)         | Tools        |
+| mistral-roblox      | Mistral Small 3.1 24B (Cloudflare)          | Vision/Tools |
+| nova-fast           | Amazon Nova Micro (Bedrock)                 | Tools        |
+| openai              | GPT-4.1 Nano                                | Vision/Tools |
+| openai-audio        | GPT-4o Mini Audio Preview                   | Audio        |
+| openai-fast         | GPT-4.1 Nano (Fast)                         | Vision       |
 | openai-large        | GPT-4.1                                     | Vision/Tools |
-| openai-reasoning    | OpenAI O3 reasoning model                   | Reasoning    |
-| phi                 | Phi-4 Instruct                              | Vision/Audio |
+| openai-reasoning    | OpenAI o3 (api.navy)                        | Reasoning    |
+| openai-roblox       | GPT-4.1 Nano (Roblox)                       | Vision/Tools |
 | qwen-coder          | Qwen 2.5 Coder 32B                          | Tools        |
+| roblox-rp           | Roblox RP Multi-Model (Random Bedrock)      | Tools        |
+| bidara              | BIDARA - Biomimetic Designer by NASA        | Vision       |
+| elixposearch        | Elixpo Search                               | -            |
+| evil                | Evil (Uncensored model)                     | Vision       |
+| hypnosis-tracy      | Hypnosis Tracy                              | Audio        |
+| midijourney         | MIDIjourney                                 | Tools        |
+| mirexa              | Mirexa AI Companion                         | Vision       |
 | rtist               | Rtist                                       | Tools        |
-| sur                 | Sur AI Assistant (Mistral)                  | Vision       |
-| unity               | Unity Unrestricted Agent (Mistral)          | Vision       |
+| sur                 | Sur AI Assistant                            | Vision       |
+| unity               | Unity Unrestricted Agent                    | Vision       |
 
 #### Google (Free Tier Available)
 | Model Name                      | Description                          | Notes        |
@@ -103,8 +111,8 @@ All CodeX Provider models are free to use:
 
 ### For Code Generation
 - **Best**: gpt-5, gpt-4.1, claude-sonnet-4-20250514, qwen-coder
-- **Fast**: gpt-5-mini, gpt-4.1-mini, claude-3-5-haiku-20241022, openai-fast
-- **Free**: openai, mistral, deepseek
+- **Fast**: gpt-5-mini, gpt-4.1-mini, claude-3-5-haiku-20241022, openai-fast, nova-fast
+- **Free**: openai, mistral, deepseek, llama-roblox, mistral-nemo-roblox
 
 ### For Code Review
 - **Best**: gpt-5, gpt-4.1, claude-sonnet-4-20250514
@@ -117,7 +125,7 @@ All CodeX Provider models are free to use:
 
 ### For Vision Tasks
 - **Best**: gpt-4o, gpt-4.1, mirexa
-- **Free**: bidara, evil, mirexa, mistral, openai, openai-large, sur, unity
+- **Free**: bidara, evil, mirexa, mistral, openai, openai-large, sur, unity, llama-fast-roblox, mistral-roblox, openai-roblox
 
 ### For Audio Processing
 - **Best**: openai-audio, hypnosis-tracy
@@ -125,7 +133,7 @@ All CodeX Provider models are free to use:
 
 ### For Tool Usage
 - **Best**: gpt-5, gpt-4.1, grok
-- **Free**: grok, midijourney, mistral, openai, openai-large, qwen-coder
+- **Free**: grok, midijourney, mistral, openai, openai-large, qwen-coder, gemini, llama-fast-roblox, llama-roblox, mistral-nemo-roblox, nova-fast, openai-roblox, roblox-rp
 
 ## CodeX Auto
 
