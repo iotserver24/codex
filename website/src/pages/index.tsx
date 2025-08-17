@@ -19,33 +19,34 @@ function HeroSection() {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading as="h1" className={styles.heroTitle}>
-              Build the Future with
+              The Future of
               <span className={styles.gradientText}> AI-Powered</span>
               <br />Development
             </Heading>
             <p className={styles.heroSubtitle}>
-              VibeStack Codex is a free, collaborative AI development platform that empowers 
-              developers with 25+ AI models, intelligent codebase management, and seamless workflow automation.
+              CodeX is a revolutionary AI development platform that combines 27+ AI models, 
+              intelligent code generation, and seamless workflow automation. Build faster, 
+              smarter, and more efficiently with the power of AI.
             </p>
             
             <div className={styles.heroButtons}>
               <Link 
                 className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
-                to="https://github.com/iotserver24/codex/releases"
+                to="/download"
               >
-                🚀 Download Free
+                🚀 Download CodeX Free
               </Link>
               <Link 
                 className={clsx('button', 'button--outline', 'button--lg', styles.secondaryButton)}
-                to="/docs/getting-started"
+                to="/docs"
               >
-                📚 Get Started
+                📚 View Documentation
               </Link>
             </div>
             
             <div className={styles.heroStats}>
               <div className={styles.stat}>
-                <span className={styles.statNumber}>25+</span>
+                <span className={styles.statNumber}>27+</span>
                 <span className={styles.statLabel}>AI Models</span>
               </div>
               <div className={styles.stat}>
@@ -55,6 +56,10 @@ function HeroSection() {
               <div className={styles.stat}>
                 <span className={styles.statNumber}>3</span>
                 <span className={styles.statLabel}>Platforms</span>
+              </div>
+              <div className={styles.stat}>
+                <span className={styles.statNumber}>∞</span>
+                <span className={styles.statLabel}>Possibilities</span>
               </div>
             </div>
           </div>
@@ -67,27 +72,31 @@ function HeroSection() {
                   <span></span>
                   <span></span>
                 </div>
-                <span className={styles.windowTitle}>VibeStack Codex</span>
+                <span className={styles.windowTitle}>CodeX AI Assistant</span>
               </div>
               <div className={styles.windowContent}>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>1</span>
-                  <span className={styles.keyword}>import</span> <span className={styles.string}>{'{ AI }'}</span> <span className={styles.keyword}>from</span> <span className={styles.string}>'vibestack-codex'</span>
+                  <span className={styles.keyword}>import</span> <span className={styles.string}>{'{ AI }'}</span> <span className={styles.keyword}>from</span> <span className={styles.string}>'@codex/ai'</span>
                 </div>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>2</span>
                 </div>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>3</span>
-                  <span className={styles.keyword}>const</span> <span className={styles.variable}>app</span> = <span className={styles.keyword}>new</span> <span className={styles.function}>AICodex</span>()
+                  <span className={styles.keyword}>const</span> <span className={styles.variable}>assistant</span> = <span className={styles.keyword}>new</span> <span className={styles.function}>AIAssistant</span>()
                 </div>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>4</span>
-                  <span className={styles.variable}>app</span>.<span className={styles.function}>build</span>(<span className={styles.string}>'amazing-project'</span>)
+                  <span className={styles.variable}>assistant</span>.<span className={styles.function}>generate</span>(<span className={styles.string}>'amazing-app'</span>)
                 </div>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>5</span>
-                  <span className={styles.comment}>// ✨ Magic happens here</span>
+                  <span className={styles.comment}>// ✨ AI-powered development unleashed</span>
+                </div>
+                <div className={styles.codeLine}>
+                  <span className={styles.lineNumber}>6</span>
+                  <span className={styles.comment}>// 🚀 Build faster with Claude, GPT, Gemini & more</span>
                 </div>
               </div>
             </div>
@@ -102,38 +111,38 @@ function FeaturesSection() {
   const features = [
     {
       icon: '🤖',
-      title: 'AI-Powered Coding',
-      description: 'Leverage 25+ AI models including GPT-4, Claude, Gemini, and free CodeX Provider models for intelligent code generation and assistance.',
+      title: '27+ AI Models',
+      description: 'Access Claude 3.5 Haiku, Gemini 2.5 Flash, GPT-4, and 25+ other AI models. Switch between models instantly for the best results.',
       gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
     },
     {
       icon: '⚡',
-      title: 'Lightning Fast',
-      description: 'Built with Electron and React for optimal performance. Switch between models instantly and get real-time AI responses.',
+      title: 'Designer Mode (Beta)',
+      description: 'Revolutionary AI-powered design assistance. Generate UI components, layouts, and design systems with natural language prompts.',
       gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'
     },
     {
-      icon: '🔒',
-      title: 'Privacy First',
-      description: 'Your code stays local unless you choose cloud models. Complete transparency with optional telemetry you control.',
+      icon: '🧠',
+      title: 'Thinking Budget System',
+      description: 'Advanced AI reasoning with configurable thinking budgets. Get more thoughtful, accurate responses for complex development tasks.',
       gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'
     },
     {
-      icon: '🌍',
-      title: 'Cross Platform',
-      description: 'Works seamlessly on Windows, macOS, and Linux. One download, universal compatibility.',
+      icon: '🔧',
+      title: 'Auto-Fix Problems',
+      description: 'Intelligent error detection and automatic problem resolution. Let AI identify and fix issues in your codebase automatically.',
       gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)'
     },
     {
       icon: '🔄',
-      title: 'Auto Updates',
-      description: 'Stay current with automatic updates via GitHub Releases. New features and improvements delivered seamlessly.',
+      title: 'Native Git Integration',
+      description: 'Seamless Git workflow integration. Commit, push, and manage your repositories directly within CodeX with AI assistance.',
       gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)'
     },
     {
-      icon: '💰',
-      title: 'Completely Free',
-      description: 'No subscriptions, no hidden costs. VibeStack Codex is free forever with access to premium AI models.',
+      icon: '🚀',
+      title: 'Auto-Update System',
+      description: 'Stay current with automatic updates. New features, AI models, and improvements delivered seamlessly to your development environment.',
       gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)'
     }
   ];
@@ -143,10 +152,10 @@ function FeaturesSection() {
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
-            Why Choose VibeStack Codex?
+            Revolutionary AI Development Features
           </Heading>
           <p className={styles.sectionSubtitle}>
-            Everything you need for modern AI-assisted development in one powerful platform
+            Experience the next generation of AI-assisted development with cutting-edge features designed for modern developers
           </p>
         </div>
         
@@ -169,31 +178,46 @@ function FeaturesSection() {
   );
 }
 
-function CTASection() {
+function ModelsSection() {
+  const models = [
+    { name: 'Claude 3.5 Haiku', type: 'Free', color: '#FF6B6B' },
+    { name: 'Gemini 2.5 Flash', type: 'Free', color: '#4ECDC4' },
+    { name: 'GPT-4', type: 'Premium', color: '#45B7D1' },
+    { name: 'Claude 3.5 Sonnet', type: 'Premium', color: '#96CEB4' },
+    { name: 'DeepSeek R1', type: 'Free', color: '#FFEAA7' },
+    { name: 'GLM-4 9B', type: 'Free', color: '#DDA0DD' },
+    { name: 'Llama 3.2 1B', type: 'Free', color: '#98D8C8' },
+    { name: 'Mistral Small', type: 'Free', color: '#F7DC6F' }
+  ];
+
   return (
-    <section className={styles.cta}>
+    <section className={styles.modelsSection}>
       <div className="container">
-        <div className={styles.ctaContent}>
-          <Heading as="h2" className={styles.ctaTitle}>
-            Ready to Transform Your Development Workflow?
-        </Heading>
-          <p className={styles.ctaSubtitle}>
-            Join thousands of developers who are already building faster with AI assistance
+        <div className={styles.sectionHeader}>
+          <Heading as="h2" className={styles.sectionTitle}>
+            Powered by 27+ AI Models
+          </Heading>
+          <p className={styles.sectionSubtitle}>
+            Access the world's most advanced AI models for coding, design, and development
           </p>
-          <div className={styles.ctaButtons}>
-            <Link 
-              className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
-              to="https://github.com/iotserver24/codex/releases"
-            >
-              Download VibeStack Codex
-            </Link>
-          <Link
-              className={clsx('button', 'button--outline', 'button--lg', styles.ctaSecondary)}
-              to="/docs"
-            >
-              View Documentation
+        </div>
+        
+        <div className={styles.modelsGrid}>
+          {models.map((model, idx) => (
+            <div key={idx} className={styles.modelCard}>
+              <div className={styles.modelName}>{model.name}</div>
+              <div className={styles.modelType} style={{ backgroundColor: model.color }}>
+                {model.type}
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        <div className={styles.modelsCTA}>
+          <p>And 19+ more models available...</p>
+          <Link to="/download" className={styles.modelsButton}>
+            Start Building with AI
           </Link>
-          </div>
         </div>
       </div>
     </section>
@@ -206,10 +230,10 @@ function VideoSection() {
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
-            See VibeStack Codex in Action
+            See CodeX in Action
           </Heading>
           <p className={styles.sectionSubtitle}>
-            Watch how VibeStack Codex transforms your development workflow
+            Watch how CodeX transforms your development workflow with AI assistance
           </p>
         </div>
         
@@ -236,14 +260,52 @@ function VideoSection() {
   );
 }
 
+function CTASection() {
+  return (
+    <section className={styles.cta}>
+      <div className="container">
+        <div className={styles.ctaContent}>
+          <Heading as="h2" className={styles.ctaTitle}>
+            Ready to Revolutionize Your Development?
+          </Heading>
+          <p className={styles.ctaSubtitle}>
+            Join thousands of developers who are already building faster, smarter, and more efficiently with AI assistance
+          </p>
+          <div className={styles.ctaButtons}>
+            <Link 
+              className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
+              to="/download"
+            >
+              🚀 Download CodeX Free
+            </Link>
+            <Link
+              className={clsx('button', 'button--outline', 'button--lg', styles.ctaSecondary)}
+              to="/docs"
+            >
+              📚 View Documentation
+            </Link>
+          </div>
+          <div className={styles.ctaFeatures}>
+            <span>✓ 27+ AI Models</span>
+            <span>✓ Designer Mode (Beta)</span>
+            <span>✓ Auto-Fix Problems</span>
+            <span>✓ Native Git Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="AI-Powered Development Platform"
-      description="VibeStack Codex - Free collaborative AI development platform with 25+ AI models, intelligent codebase management, and seamless workflow automation.">
+      title="CodeX - AI-Powered Development Platform"
+      description="CodeX - Revolutionary AI development platform with 27+ AI models, Designer Mode, Thinking Budget System, and seamless workflow automation. Download free for Windows, macOS, and Linux.">
       <HeroSection />
       <VideoSection />
       <FeaturesSection />
+      <ModelsSection />
       <CTASection />
     </Layout>
   );
