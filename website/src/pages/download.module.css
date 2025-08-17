@@ -1,0 +1,299 @@
+.main {
+  background: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Main Download Section */
+.mainDownloadSection {
+  text-align: center;
+  padding: 4rem 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.logoSection {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.primaryDownload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.primaryDownloadText {
+  color: #8b949e;
+  font-size: 0.875rem;
+}
+
+/* Download Button */
+.downloadButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.5rem;
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+  min-width: 200px;
+}
+
+.downloadButton:hover {
+  background: #f0f0f0;
+  text-decoration: none;
+  color: #000000;
+}
+
+.primaryDownloadButton {
+  min-width: 250px;
+}
+
+.osIcon {
+  font-size: 1.25rem;
+}
+
+.downloadText {
+  font-weight: 500;
+}
+
+.downloadArrow {
+  font-size: 1rem;
+}
+
+/* All Versions Section */
+.allVersionsSection {
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.allVersionsTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.versionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Version Section */
+.versionSection {
+  border-bottom: 1px solid #30363d;
+}
+
+.versionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.versionHeader:hover {
+  background: #161b22;
+}
+
+.versionInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.versionNumber {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.latestBadge {
+  background: #30363d;
+  color: #ffffff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.versionActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.releaseNotesLink {
+  color: #8b949e;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.releaseNotesLink:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.expandIcon {
+  color: #8b949e;
+  font-size: 0.875rem;
+  transition: transform 0.2s ease;
+}
+
+.expandIcon.expanded {
+  transform: rotate(90deg);
+}
+
+/* Version Content */
+.versionContent {
+  padding: 2rem;
+  background: #161b22;
+}
+
+.platformsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Platform Cards */
+.platformCard {
+  background: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.platformHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.platformIcon {
+  font-size: 1.5rem;
+}
+
+.platformTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.platformDownloads {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.platformDownloadLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid #30363d;
+}
+
+.platformDownloadLink:last-child {
+  border-bottom: none;
+}
+
+.platformDownloadLink:hover {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.downloadName {
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 2rem;
+  }
+  
+  .versionHeader {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .versionActions {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .versionContent {
+    padding: 1rem;
+  }
+  
+  .platformsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .primaryDownloadButton {
+    min-width: auto;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainDownloadSection {
+    padding: 2rem 0;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+  }
+  
+  .mainTitle {
+    font-size: 1.75rem;
+  }
+  
+  .allVersionsSection {
+    padding: 1rem 0;
+  }
+  
+  .versionNumber {
+    font-size: 1.125rem;
+  }
+  
+  .platformCard {
+    padding: 1rem;
+  }
+}

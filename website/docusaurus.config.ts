@@ -73,7 +73,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/iotserver24/codex/releases',
+          to: '/download',
           label: 'Download',
           position: 'right',
         },
@@ -131,7 +131,7 @@ const config: Config = {
             },
             {
               label: 'Download',
-              href: 'https://github.com/iotserver24/codex/releases',
+              to: '/download',
             },
             {
               label: 'Donate',
