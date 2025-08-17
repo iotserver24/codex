@@ -3,12 +3,110 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import { useEffect, useRef } from 'react';
 
 import styles from './index.module.css';
 
 function HeroSection() {
+  const heroRef = useRef<HTMLElement>(null);
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const subtitleRef = useRef<HTMLParagraphElement>(null);
+  const buttonsRef = useRef<HTMLDivElement>(null);
+  const statsRef = useRef<HTMLDivElement>(null);
+  const codeWindowRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Load Anime.js dynamically
+    const loadAnime = async () => {
+      if (typeof window !== 'undefined' && !window.anime) {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js';
+        script.onload = () => {
+          if (window.anime) {
+            animateHero();
+          }
+        };
+        document.head.appendChild(script);
+      } else if (window.anime) {
+        animateHero();
+      }
+    };
+
+    const animateHero = () => {
+      // Hero entrance animation - much faster
+      const timeline = window.anime.timeline({
+        easing: 'easeOutExpo',
+        duration: 400
+      });
+
+      timeline
+        .add({
+          targets: titleRef.current,
+          translateY: [-20, 0],
+          opacity: [0, 1],
+          duration: 400,
+        })
+        .add({
+          targets: subtitleRef.current,
+          translateY: [-15, 0],
+          opacity: [0, 1],
+          duration: 300,
+          offset: '-=200',
+        })
+        .add({
+          targets: buttonsRef.current,
+          translateY: [15, 0],
+          opacity: [0, 1],
+          duration: 300,
+          offset: '-=150',
+        })
+        .add({
+          targets: statsRef.current,
+          translateY: [15, 0],
+          opacity: [0, 1],
+          duration: 300,
+          offset: '-=100',
+        })
+        .add({
+          targets: codeWindowRef.current,
+          translateX: [10, 0],
+          opacity: [0, 1],
+          scale: [0.98, 1],
+          duration: 200,
+          offset: '-=50',
+        });
+
+      // Floating animation for gradient orbs - faster
+      window.anime({
+        targets: '.gradientOrb1, .gradientOrb2, .gradientOrb3',
+        translateY: [0, -10, 0],
+        translateX: [0, 5, 0],
+        scale: [1, 1.02, 1],
+        duration: 3000,
+        easing: 'easeInOutSine',
+        loop: true,
+        direction: 'alternate',
+      });
+
+      // Code window typing effect - super fast
+      const codeLines = codeWindowRef.current?.querySelectorAll('.codeLine');
+      if (codeLines) {
+        window.anime({
+          targets: codeLines,
+          opacity: [0, 1],
+          translateX: [-3, 0],
+          duration: 150,
+          delay: window.anime.stagger(20),
+          easing: 'easeOutExpo',
+        });
+      }
+    };
+
+    loadAnime();
+  }, []);
+
   return (
-    <section className={styles.hero}>
+    <section ref={heroRef} className={styles.hero}>
       <div className={styles.heroBackground}>
         <div className={styles.gradientOrb1}></div>
         <div className={styles.gradientOrb2}></div>
@@ -18,18 +116,18 @@ function HeroSection() {
       <div className="container">
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
-            <Heading as="h1" className={styles.heroTitle}>
+            <Heading ref={titleRef} as="h1" className={styles.heroTitle}>
               The Future of
               <span className={styles.gradientText}> AI-Powered</span>
               <br />Development
             </Heading>
-            <p className={styles.heroSubtitle}>
+            <p ref={subtitleRef} className={styles.heroSubtitle}>
               CodeX is a revolutionary AI development platform that combines 27+ AI models, 
               intelligent code generation, and seamless workflow automation. Build faster, 
               smarter, and more efficiently with the power of AI.
             </p>
             
-            <div className={styles.heroButtons}>
+            <div ref={buttonsRef} className={styles.heroButtons}>
               <Link 
                 className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
                 to="/download"
@@ -44,7 +142,7 @@ function HeroSection() {
               </Link>
             </div>
             
-            <div className={styles.heroStats}>
+            <div ref={statsRef} className={styles.heroStats}>
               <div className={styles.stat}>
                 <span className={styles.statNumber}>27+</span>
                 <span className={styles.statLabel}>AI Models</span>
@@ -65,7 +163,7 @@ function HeroSection() {
           </div>
           
           <div className={styles.heroVisual}>
-            <div className={styles.codeWindow}>
+            <div ref={codeWindowRef} className={styles.codeWindow}>
               <div className={styles.windowHeader}>
                 <div className={styles.windowButtons}>
                   <span></span>
@@ -108,6 +206,7 @@ function HeroSection() {
 }
 
 function FeaturesSection() {
+  const featuresRef = useRef<HTMLElement>(null);
   const features = [
     {
       icon: '🤖',
@@ -147,8 +246,34 @@ function FeaturesSection() {
     }
   ];
 
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && window.anime) {
+          // Animate feature cards
+          window.anime({
+            targets: '.featureCard',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            scale: [0.9, 1],
+            duration: 800,
+            delay: window.anime.stagger(150),
+            easing: 'easeOutExpo',
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    if (featuresRef.current) {
+      observer.observe(featuresRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className={styles.features}>
+    <section ref={featuresRef} className={styles.features}>
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
@@ -179,6 +304,7 @@ function FeaturesSection() {
 }
 
 function ModelsSection() {
+  const modelsRef = useRef<HTMLElement>(null);
   const models = [
     { name: 'Claude 3.5 Haiku', type: 'Free', color: '#FF6B6B' },
     { name: 'Gemini 2.5 Flash', type: 'Free', color: '#4ECDC4' },
@@ -190,8 +316,33 @@ function ModelsSection() {
     { name: 'Mistral Small', type: 'Free', color: '#F7DC6F' }
   ];
 
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && window.anime) {
+          // Animate model cards
+          window.anime({
+            targets: '.modelCard',
+            translateX: [-50, 0],
+            opacity: [0, 1],
+            duration: 600,
+            delay: window.anime.stagger(100),
+            easing: 'easeOutExpo',
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    if (modelsRef.current) {
+      observer.observe(modelsRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className={styles.modelsSection}>
+    <section ref={modelsRef} className={styles.modelsSection}>
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
@@ -225,8 +376,35 @@ function ModelsSection() {
 }
 
 function VideoSection() {
+  const videoRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && window.anime) {
+          // Animate video section
+          window.anime({
+            targets: '.videoContainer',
+            translateY: [30, 0],
+            opacity: [0, 1],
+            scale: [0.95, 1],
+            duration: 1000,
+            easing: 'easeOutExpo',
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    if (videoRef.current) {
+      observer.observe(videoRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className={styles.videoSection}>
+    <section ref={videoRef} className={styles.videoSection}>
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
@@ -261,8 +439,34 @@ function VideoSection() {
 }
 
 function CTASection() {
+  const ctaRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && window.anime) {
+          // Animate CTA section
+          window.anime({
+            targets: '.ctaContent',
+            translateY: [30, 0],
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeOutExpo',
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    if (ctaRef.current) {
+      observer.observe(ctaRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className={styles.cta}>
+    <section ref={ctaRef} className={styles.cta}>
       <div className="container">
         <div className={styles.ctaContent}>
           <Heading as="h2" className={styles.ctaTitle}>
