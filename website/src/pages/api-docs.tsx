@@ -26,11 +26,12 @@ export default function ApiDocsPage(): JSX.Element {
                 <code className={styles.code}>
                   https://codex.anishkumar.tech/api/downloads.json
                 </code>
+                <p>This is a static JSON file that contains all download information.</p>
               </div>
             </section>
 
             <section className={styles.section}>
-              <h2>📋 API Endpoints</h2>
+              <h2>📋 API Structure</h2>
               
               <div className={styles.endpoint}>
                 <h3>Get All Releases</h3>
@@ -55,7 +56,7 @@ export default function ApiDocsPage(): JSX.Element {
 
               <div className={styles.endpoint}>
                 <h3>Get Latest Release</h3>
-                <code className={styles.code}>GET /api/downloads.json</code>
+                <code className={styles.code}>Access the "latest" property</code>
                 <p>Access the <code>latest</code> property from the response.</p>
               </div>
 
