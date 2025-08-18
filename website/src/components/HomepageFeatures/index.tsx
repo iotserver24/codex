@@ -1,18 +1,19 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import { LightningIcon, RocketIcon } from '@site/src/components/icons';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  icon: string;
+  icon: ReactNode;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'AI-Powered Development',
-    icon: '🤖',
+    icon: <div className={styles.featureIcon}>🤖</div>,
     description: (
       <>
         Build applications faster with AI assistance. VibeStack Codex integrates
@@ -22,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Multiple AI Models',
-    icon: '⚡',
+    icon: <LightningIcon size={32} className={styles.featureIcon} />,
     description: (
       <>
         Access 25+ AI models from various providers including OpenAI, Anthropic,
@@ -32,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Built with Electron',
-    icon: '🚀',
+    icon: <RocketIcon size={32} className={styles.featureIcon} />,
     description: (
       <>
         Cross-platform desktop application built with Electron and React.
@@ -46,7 +47,7 @@ function Feature({title, icon, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <div className={styles.featureIcon}>{icon}</div>
+        {icon}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

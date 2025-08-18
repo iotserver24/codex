@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { RocketIcon, TargetIcon, LockIcon, GlobeIcon, CreditCardIcon, CoffeeIcon } from '@site/src/components/icons';
 import './DonationModal.css';
 
 const DonationModal = ({ isOpen, onClose, showTrigger = true }) => {
@@ -59,17 +60,17 @@ const DonationModal = ({ isOpen, onClose, showTrigger = true }) => {
                   <p>Integration and testing of 25+ AI models costs significant resources</p>
                 </div>
                 <div className="reason-card">
-                  <div className="reason-icon">🔒</div>
+                  <div className="reason-icon"><LockIcon size={24} /></div>
                   <h4>Security & Privacy</h4>
                   <p>Maintaining secure, local-first architecture requires ongoing development</p>
                 </div>
                 <div className="reason-card">
-                  <div className="reason-icon">🚀</div>
+                  <div className="reason-icon"><RocketIcon size={24} /></div>
                   <h4>New Features</h4>
                   <p>Building advanced AI coding features and workflow automation</p>
                 </div>
                 <div className="reason-card">
-                  <div className="reason-icon">🌍</div>
+                  <div className="reason-icon"><GlobeIcon size={24} /></div>
                   <h4>Free Forever</h4>
                   <p>While competitors charge $7-30/month, we stay committed to being free</p>
                 </div>
@@ -101,7 +102,7 @@ const DonationModal = ({ isOpen, onClose, showTrigger = true }) => {
 
             {/* Quick Amount Selection */}
             <div className="amount-selection">
-              <h3>🎯 Quick Donation</h3>
+              <h3><TargetIcon size={20} /> Quick Donation</h3>
               <div className="amount-buttons">
                 {donationAmounts.map(amount => (
                   <button
@@ -122,7 +123,7 @@ const DonationModal = ({ isOpen, onClose, showTrigger = true }) => {
               {/* Razorpay Option */}
               <button className="razorpay-btn" onClick={handleDonate}>
                 <div className="payment-method">
-                  <div className="payment-icon">💳</div>
+                  <div className="payment-icon"><CreditCardIcon size={24} /></div>
                   <div className="payment-details">
                     <h4>Razorpay</h4>
                     <p>UPI • Cards • NetBanking • Wallets</p>
@@ -140,7 +141,7 @@ const DonationModal = ({ isOpen, onClose, showTrigger = true }) => {
                 }}
               >
                 <div className="payment-method">
-                  <div className="payment-icon">☕</div>
+                  <div className="payment-icon"><CoffeeIcon size={24} /></div>
                   <div className="payment-details">
                     <h4>Buy Me a Coffee</h4>
                     <p>International • PayPal • Stripe • Quick & Easy</p>

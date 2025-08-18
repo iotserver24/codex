@@ -995,7 +995,7 @@
     grid-template-columns: 1fr;
     gap: 3rem;
     text-align: center;
-    min-height: auto;
+    min-height: 0;
   }
   
   .heroTitle {
@@ -1003,7 +1003,7 @@
   }
   
   .hero {
-    min-height: auto;
+    min-height: 0;
     padding: 4rem 0;
   }
   
@@ -1089,3 +1089,96 @@
     max-width: 200px;
   }
 }
+
+/* Horizontal Scroll Section */
+.horizontalSection {
+  position: relative;
+  background: #000000;
+}
+
+.horizontalSticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.horizontalTrack {
+  display: flex;
+  flex-wrap: nowrap;
+  will-change: transform;
+  transform: translate3d(0,0,0);
+  transition: transform 0.06s linear;
+}
+
+.panel {
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.panelInner {
+  max-width: 900px;
+  width: 100%;
+  background: rgba(20, 20, 20, 0.85);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+
+.panelTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  background: linear-gradient(135deg, #ffffff 0%, #bbbbbb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.panelText {
+  color: #a0a0a0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 996px) {
+  .panel {
+    padding: 2rem;
+  }
+  .panelInner {
+    padding: 2rem;
+    border-radius: 16px;
+  }
+  .panelTitle {
+    font-size: 1.8rem;
+  }
+}
+
+.promoVideo {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  background: #000;
+}
+
+.featureIconGrad1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.featureIconGrad2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+.featureIconGrad3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+.featureIconGrad4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+.featureIconGrad5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+.featureIconGrad6 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+
+.modelTypeColor1 { background-color: #FF6B6B; }
+.modelTypeColor2 { background-color: #4ECDC4; }
+.modelTypeColor3 { background-color: #45B7D1; }
+.modelTypeColor4 { background-color: #96CEB4; }
+.modelTypeColor5 { background-color: #FFEAA7; }
+.modelTypeColor6 { background-color: #DDA0DD; }
+.modelTypeColor7 { background-color: #98D8C8; }
+.modelTypeColor8 { background-color: #F7DC6F; }

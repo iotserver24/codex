@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import { RocketIcon, MobileIcon } from '@site/src/components/icons';
 import styles from './api-docs.module.css';
 
 export default function ApiDocsPage(): JSX.Element {
@@ -20,7 +21,7 @@ export default function ApiDocsPage(): JSX.Element {
 
           <div className={styles.content}>
             <section className={styles.section}>
-              <h2>🚀 Quick Start</h2>
+              <h2><RocketIcon size={24} /> Quick Start</h2>
               <div className={styles.endpoint}>
                 <h3>Base URL</h3>
                 <code className={styles.code}>
@@ -191,7 +192,7 @@ curl -o downloads.json https://codex.anishkumar.tech/api/downloads.json`}
                 </div>
                 
                 <div className={styles.idea}>
-                  <h3>📱 Mobile Apps</h3>
+                  <h3><MobileIcon size={20} /> Mobile Apps</h3>
                   <p>Show available versions and redirect to appropriate downloads.</p>
                 </div>
                 

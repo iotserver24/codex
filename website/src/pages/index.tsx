@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import { useEffect, useRef } from 'react';
+import { RocketIcon, SparklesIcon, BookIcon } from '@site/src/components/icons';
 
 import styles from './index.module.css';
 
@@ -132,13 +133,13 @@ function HeroSection() {
                 className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
                 to="/download"
               >
-                🚀 Download CodeX Free
+                <RocketIcon size={20} /> Download CodeX Free
               </Link>
               <Link 
                 className={clsx('button', 'button--outline', 'button--lg', styles.secondaryButton)}
                 to="/docs"
               >
-                📚 View Documentation
+                <BookIcon size={20} /> View Documentation
               </Link>
             </div>
             
@@ -190,13 +191,125 @@ function HeroSection() {
                 </div>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>5</span>
-                  <span className={styles.comment}>// ✨ AI-powered development unleashed</span>
+                  <span className={styles.comment}>// <SparklesIcon size={16} /> AI-powered development unleashed</span>
                 </div>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>6</span>
-                  <span className={styles.comment}>// 🚀 Build faster with Claude, GPT, Gemini & more</span>
+                  <span className={styles.comment}>// <RocketIcon size={16} /> Build faster with Claude, GPT, Gemini & more</span>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function HorizontalScrollSection() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const stickyRef = useRef<HTMLDivElement>(null);
+  const trackRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const sectionElement = sectionRef.current;
+    const stickyElement = stickyRef.current;
+    const trackElement = trackRef.current;
+    if (!sectionElement || !stickyElement || !trackElement) return;
+
+    const clamp = (value: number, min: number, max: number) => Math.min(Math.max(value, min), max);
+
+    const setSectionHeight = () => {
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const totalTrackWidth = trackElement.scrollWidth;
+      const extraScroll = Math.max(totalTrackWidth - viewportWidth, 0);
+      sectionElement.style.height = `${viewportHeight + extraScroll}px`;
+    };
+
+    let animationFrameId = 0;
+    const onScroll = () => {
+      if (animationFrameId) return;
+      animationFrameId = window.requestAnimationFrame(() => {
+        const rect = sectionElement.getBoundingClientRect();
+        const viewportHeight = window.innerHeight;
+        const progressRaw = -rect.top / (sectionElement.offsetHeight - viewportHeight);
+        const progress = clamp(progressRaw, 0, 1);
+        const maxTranslate = Math.max(trackElement.scrollWidth - window.innerWidth, 0);
+        const translateX = -progress * maxTranslate;
+        trackElement.style.transform = `translate3d(${translateX}px, 0, 0)`;
+        animationFrameId = 0;
+      });
+    };
+
+    // Initialize sizes and positions
+    setSectionHeight();
+    onScroll();
+
+    // Recompute on resize (debounced via RAF)
+    const onResize = () => {
+      window.requestAnimationFrame(() => {
+        setSectionHeight();
+        onScroll();
+      });
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onResize);
+
+    // Prefer-reduced-motion: stop transforms
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const handlePRM = () => {
+      if (mediaQuery.matches) {
+        trackElement.style.transform = 'none';
+      } else {
+        onScroll();
+      }
+    };
+    mediaQuery.addEventListener?.('change', handlePRM);
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onResize);
+      mediaQuery.removeEventListener?.('change', handlePRM);
+      if (animationFrameId) window.cancelAnimationFrame(animationFrameId);
+    };
+  }, []);
+
+  return (
+    <section ref={sectionRef} className={styles.horizontalSection}>
+      <div ref={stickyRef} className={styles.horizontalSticky}>
+        <div ref={trackRef} className={styles.horizontalTrack}>
+          <div className={styles.panel}>
+            <div className={styles.panelInner}>
+              <h3 className={styles.panelTitle}>Build Without Limits</h3>
+              <p className={styles.panelText}>From idea to shipping product, orchestrate your entire workflow with CodeX.</p>
+            </div>
+          </div>
+          <div className={styles.panel}>
+            <div className={styles.panelInner}>
+              <h3 className={styles.panelTitle}>Designer Mode (Beta)</h3>
+              <p className={styles.panelText}>Generate UI, systems, and layouts with natural language.</p>
+            </div>
+          </div>
+          <div className={styles.panel}>
+            <div className={styles.panelInner}>
+              <h3 className={styles.panelTitle}>Auto-Fix Problems</h3>
+              <p className={styles.panelText}>Detect, explain, and fix issues automatically with safe edits.</p>
+            </div>
+          </div>
+          <div className={styles.panel}>
+            <div className={styles.panelInner}>
+              <h3 className={styles.panelTitle}>Git-Native</h3>
+              <p className={styles.panelText}>Commit, branch, and review – all inside your AI workflow.</p>
+            </div>
+          </div>
+          <div className={styles.panel}>
+            <div className={styles.panelInner}>
+              <h3 className={styles.panelTitle}>27+ Models, Free</h3>
+              <p className={styles.panelText}>Claude 3.5 Haiku, Gemini 2.5 Flash, and many more at your fingertips.</p>
             </div>
           </div>
         </div>
@@ -288,8 +401,7 @@ function FeaturesSection() {
           {features.map((feature, idx) => (
             <div key={idx} className={styles.featureCard}>
               <div 
-                className={styles.featureIcon}
-                style={{ background: feature.gradient }}
+                className={clsx(styles.featureIcon, styles[`featureIconGrad${idx + 1}` as keyof typeof styles])}
               >
                 {feature.icon}
               </div>
@@ -357,7 +469,7 @@ function ModelsSection() {
           {models.map((model, idx) => (
             <div key={idx} className={styles.modelCard}>
               <div className={styles.modelName}>{model.name}</div>
-              <div className={styles.modelType} style={{ backgroundColor: model.color }}>
+              <div className={clsx(styles.modelType, styles[`modelTypeColor${idx + 1}` as keyof typeof styles])}>
                 {model.type}
               </div>
             </div>
@@ -421,13 +533,7 @@ function VideoSection() {
             loop 
             muted 
             playsInline
-            style={{
-              width: '100%',
-              height: 'auto',
-              borderRadius: '16px',
-              boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
-              background: '#000'
-            }}
+            className={styles.promoVideo}
           >
             <source src="https://bucket.anisurge.me/0712-02_1752326506968.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -508,6 +614,7 @@ export default function Home(): ReactNode {
       description="CodeX - Revolutionary AI development platform with 27+ AI models, Designer Mode, Thinking Budget System, and seamless workflow automation. Download free for Windows, macOS, and Linux.">
       <HeroSection />
       <VideoSection />
+      <HorizontalScrollSection />
       <FeaturesSection />
       <ModelsSection />
       <CTASection />

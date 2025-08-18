@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
+import { RocketIcon } from '@site/src/components/icons';
 import styles from './download.module.css';
 
 const releases = [
@@ -428,7 +429,9 @@ export default function DownloadPage(): JSX.Element {
           {/* Main Download Section */}
           <div className={styles.mainDownloadSection}>
             <div className={styles.logoSection}>
-              <div className={styles.logo}>🚀</div>
+              <div className={styles.logo}>
+                <RocketIcon size={48} />
+              </div>
             </div>
             <h1 className={styles.mainTitle}>Download CodeX</h1>
             
