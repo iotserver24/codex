@@ -137,6 +137,10 @@ const config: Config = {
               label: 'Donate',
               href: 'https://razorpay.me/@megavault',
             },
+            {
+              label: 'Privacy Policy',
+              to: '/privacy-policy',
+            },
           ],
         },
       ],
