@@ -142,6 +142,22 @@ function HeroSection() {
                 <BookIcon size={20} /> View Documentation
               </Link>
             </div>
+
+            <div style={{ marginTop: '12px' }}>
+              <a
+                href="https://www.producthunt.com/products/codex-6?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-codex&#0045;4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1009660&theme=light&t=1756298264612"
+                  alt="CodeX - Build webapps in minutes for complelty free | Product Hunt"
+                  width="250"
+                  height="54"
+                  style={{ width: 250, height: 54 }}
+                />
+              </a>
+            </div>
             
             <div ref={statsRef} className={styles.heroStats}>
               <div className={styles.stat}>
