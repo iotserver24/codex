@@ -617,6 +617,9 @@ function CTASection() {
             <span>✓ Auto-Fix Problems</span>
             <span>✓ Native Git Support</span>
           </div>
+          <div className={styles.thankYouMessage}>
+            <p>Special thanks to <a href="https://github.com/dyad-sh" target="_blank" rel="noopener noreferrer">dyad-sh</a> for making their work open source 🙏</p>
+          </div>
         </div>
       </div>
     </section>

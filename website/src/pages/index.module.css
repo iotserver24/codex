@@ -989,6 +989,29 @@
   backdrop-filter: blur(10px);
 }
 
+.thankYouMessage {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.thankYouMessage p {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.thankYouMessage a {
+  color: #4ecdc4;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.thankYouMessage a:hover {
+  color: #45b7d1;
+  text-decoration: underline;
+}
+
 /* Enhanced Responsive Design */
 @media screen and (max-width: 996px) {
   .heroContent {
