@@ -8,6 +8,8 @@ sidebar_position: 1
 
 **CodeX** is your free, collaborative AI development platform that empowers developers with intelligent coding assistance, seamless workflow automation, and access to 40+ AI models.
 
+<a href="https://www.producthunt.com/products/codex-6?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-codex&#0045;4" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1009660&theme=light&t=1756298264612" alt="CodeX - Build&#0032;webapps&#0032;in&#0032;minutes&#0032;for&#0032;complelty&#0032;free | Product Hunt" style={{width: '250px', height: '54px'}} width="250" height="54" /></a>
+
 ## **See CodeX in Action**
 
 Watch this demonstration video to see how CodeX transforms your development workflow:
