@@ -351,10 +351,10 @@ export default function PrivacyPolicy(): JSX.Element {
               <div className={styles.sectionContent}>
                 <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
                 <div className={styles.contactGrid}>
-                  <a href="mailto:privacy@vibestack.com" className={styles.contactCard}>
+                  <a href="mailto:iotserver24@gmail.com" className={styles.contactCard}>
                     <span className={styles.contactIcon}>📧</span>
                     <h4>Email</h4>
-                    <p>privacy@vibestack.com</p>
+                    <p>iotserver24@gmail.com</p>
                   </a>
                   <a href="https://github.com/iotserver24/codex/issues" target="_blank" rel="noopener noreferrer" className={styles.contactCard}>
                     <span className={styles.contactIcon}>🐙</span>

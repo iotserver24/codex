@@ -141,6 +141,10 @@ const config: Config = {
               label: 'Privacy Policy',
               to: '/privacy-policy',
             },
+            {
+              label: 'Support',
+              to: '/support',
+            },
           ],
         },
       ],
