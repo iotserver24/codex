@@ -511,6 +511,14 @@ export default function DownloadPage(): JSX.Element {
                 {primaryDownloadText || `Version ${latestRelease.version} for Windows 10/11 (x64)`}
               </span>
             </div>
+            
+            {/* Security Note */}
+            <div className={styles.securityNote}>
+              <p>
+                ⚠️ <strong>Security Notice:</strong> Your browser may show a security warning when downloading executable files. 
+                This is normal for open-source software. Click "Keep" or "Download anyway" to proceed with the download.
+              </p>
+            </div>
           </div>
 
           {/* All Versions Section */}
