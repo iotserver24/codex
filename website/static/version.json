@@ -1,16 +1,28 @@
 {
   "stable": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "downloadUrl": "https://github.com/iotserver24/codex/releases/latest",
-    "downloadPageUrl": "https://codex.anishkumar.tech/download/stable",
-    "readmeUrl": "https://raw.githubusercontent.com/iotserver24/codex/main/RELEASE_NOTES_v1.1.0.md",
-    "releaseNotes": "CodeX 1.1.0 stable release. See the download page for links."
+    "downloadPageUrl": "http://localhost:3000/download",
+    "releaseNotes": "CodeX 1.1.1 stable release.",
+    "readmeMarkdown": "# CodeX 1.1.1 (Stable)\n\n- Improved theme system\n- Update UI enhancements\n- Various bug fixes\n\nVisit the download page for installers.",
+    "updateNotice": "Important: macOS notarization improved. If Gatekeeper warns, right-click the app and choose Open.",
+    "updateInfo": [
+      "Theme tokens refined for better contrast",
+      "Update modal improvements and page links",
+      "General performance and bug fixes"
+    ]
   },
   "beta": {
-    "version": "1.1.0", 
-    "downloadUrl": "https://github.com/iotserver24/codex/releases/tag/v1.1.0",
-    "downloadPageUrl": "https://codex.anishkumar.tech/download/beta",
-    "readmeUrl": "https://raw.githubusercontent.com/iotserver24/codex/main/RELEASE_NOTES_v1.1.0.md",
-    "releaseNotes": "CodeX 1.1.0 beta. See the download page for links."
+    "version": "1.1.1", 
+    "downloadUrl": "https://github.com/iotserver24/codex/releases/tag/v1.1.1",
+    "downloadPageUrl": "http://localhost:3000/download/beta",
+    "releaseNotes": "CodeX 1.1.1 beta.",
+    "readmeMarkdown": "# CodeX 1.1.1 (Beta)\n\n- New Docs indexing (Beta)\n- Update dialog can render remote README\n- Added Beta badge across Docs\n\nUse the Beta download page for OS-specific installers.",
+    "updateNotice": "Heads up: Docs feature is in Beta. Indexing may be slower on large sites.",
+    "updateInfo": [
+      "Docs indexing improved stability",
+      "Added Beta badge on Docs surfaces",
+      "Update modal now supports inline README, notice, and OS buttons"
+    ]
   }
 }
