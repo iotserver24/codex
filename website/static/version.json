@@ -1,12 +1,16 @@
 {
   "stable": {
-    "version": "1.0.8",
+    "version": "1.1.0",
     "downloadUrl": "https://github.com/iotserver24/codex/releases/latest",
-    "releaseNotes": "Added 5 new themes with app-wide color variables, improved text contrast across the UI, theme-aware chat inputs and title bar window controls, Settings and Hub now use theme tokens, and improved macOS CI for universal builds."
+    "downloadPageUrl": "https://codex.anishkumar.tech/download/stable",
+    "readmeUrl": "https://raw.githubusercontent.com/iotserver24/codex/main/RELEASE_NOTES_v1.1.0.md",
+    "releaseNotes": "CodeX 1.1.0 stable release. See the download page for links."
   },
   "beta": {
-    "version": "1.0.8", 
-    "downloadUrl": "https://github.com/iotserver24/codex/releases/tag/v1.0.8",
-    "releaseNotes": "Added 5 new themes with app-wide color variables, improved text contrast across the UI, theme-aware chat inputs and title bar window controls, Settings and Hub now use theme tokens, and improved macOS CI for universal builds."
+    "version": "1.1.0", 
+    "downloadUrl": "https://github.com/iotserver24/codex/releases/tag/v1.1.0",
+    "downloadPageUrl": "https://codex.anishkumar.tech/download/beta",
+    "readmeUrl": "https://raw.githubusercontent.com/iotserver24/codex/main/RELEASE_NOTES_v1.1.0.md",
+    "releaseNotes": "CodeX 1.1.0 beta. See the download page for links."
   }
 }
