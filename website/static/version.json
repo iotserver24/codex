@@ -13,15 +13,16 @@
     ]
   },
   "beta": {
-    "version": "0.9.2", 
-    "downloadUrl": "https://github.com/iotserver24/codex/releases/tag/v1.1.1",
-    "downloadPageUrl": "http://localhost:3000/download/beta",
-    "releaseNotes": "CodeX 1.1.1 beta.",
-    "readmeMarkdown": "# CodeX 1.1.1 (Beta)\n\n- New Docs indexing (Beta)\n- Update dialog can render remote README\n- Added Beta badge across Docs\n\nUse the Beta download page for OS-specific installers.",
+    "version": "1.1.0", 
+    "downloadUrl": "https://github.com/iotserver24/codex/releases/tag/v1.1.0",
+    "downloadPageUrl": "https://codex.anishkumar.tech/download/beta",
+    "releaseNotes": "CodeX 1.1.0 beta.",
+    "readmeMarkdown": "# CodeX 1.1.0 (Beta)\n\n- New Docs indexing (Beta)\n- Update dialog can render remote README\n- Added Beta badge across Docs\n\n Added library to save goood prompts for later use\n\nUse the Beta download page for OS-specific installers.",
     "updateNotice": "Heads up: Docs feature is in Beta. Indexing may be slower on large sites.",
     "updateInfo": [
       "Docs indexing improved stability",
       "Added Beta badge on Docs surfaces",
+      "added library to save good prompts for later use",
       "Update modal now supports inline README, notice, and OS buttons"
     ]
   }
