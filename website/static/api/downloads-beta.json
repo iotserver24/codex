@@ -9,13 +9,13 @@
       "windows": [
         {
           "name": "Windows (x64)",
-          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/codex-1.1.0-x86.Setup.exe",
+          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/codex-1.1.0-windows-x64.exe",
           "type": "exe",
           "arch": "x64"
         },
         {
           "name": "Windows (ARM64)",
-          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/codex-1.1.0-arm64.Setup.exe",
+          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/codex-1.1.0-windows-arm64.exe",
           "type": "exe",
           "arch": "ARM64"
         }
@@ -23,7 +23,7 @@
       "macos": [
         {
           "name": "Mac (ARM64)",
-          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/codex-darwin-arm64-1.1.0.zip",
+          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/CodeX-1.1.0-macOS-Universal.zip",
           "type": "zip",
           "arch": "ARM64"
         },
@@ -37,7 +37,7 @@
       "linux": [
         {
           "name": "Linux (x64) DEB",
-          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/codex_1.1.0_x86.deb",
+          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/CodeX-1.1.0-Linux-x64.deb",
           "type": "deb",
           "arch": "x64"
         },
@@ -49,13 +49,13 @@
         },
         {
           "name": "Linux (x64) RPM",
-          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/codex-1.1.0-1.x86_64.rpm",
+          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/CodeX-1.1.0-Linux-x64.rpm",
           "type": "rpm",
           "arch": "x64"
         },
         {
           "name": "Linux (ARM64) RPM",
-          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/codex-1.1.0-1.arm64.rpm",
+          "url": "https://github.com/iotserver24/codex/releases/download/v1.1.0/CodeX-1.1.0-Linux-ARM64.deb",
           "type": "rpm",
           "arch": "ARM64"
         }
