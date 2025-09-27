@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import { useEffect, useRef } from 'react';
 import { RocketIcon, SparklesIcon, BookIcon } from '@site/src/components/icons';
+import SponsorshipLogos from '@site/src/components/SponsorshipLogos';
 
 import styles from './index.module.css';
 
@@ -356,21 +357,6 @@ function CTASection() {
           </div>
           <div className={styles.thankYouMessage}>
             <p>Special thanks to <a href="https://github.com/dyad-sh" target="_blank" rel="noopener noreferrer">dyad-sh</a> for making their work open source 🙏</p>
-            <div className={styles.sponsorLogos}>
-              <p className={styles.sponsorLabel}>Sponsored by:</p>
-              <a 
-                href="https://layer7.net/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className={styles.sponsorLogo}
-              >
-                <img 
-                  src="/img/Layer7.png" 
-                  alt="Layer7 Networks" 
-                  className={styles.sponsorImage}
-                />
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -385,9 +371,11 @@ export default function Home(): ReactNode {
       description="CodeX - Revolutionary AI development platform with 27+ AI models, Designer Mode, Thinking Budget System, and seamless workflow automation. Download free for Windows, macOS, and Linux.">
       <HeroSection />
       <VideoSection />
+      <SponsorshipLogos title="Sponsored by" />
       <FeaturesSection />
       <ModelsSection />
       <CTASection />
+      <SponsorshipLogos title="Sponsored by" />
     </Layout>
   );
 }
