@@ -16,95 +16,6 @@ function HeroSection() {
   const statsRef = useRef<HTMLDivElement>(null);
   const codeWindowRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    // Load Anime.js dynamically
-    const loadAnime = async () => {
-      if (typeof window !== 'undefined' && !window.anime) {
-        const script = document.createElement('script');
-        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js';
-        script.onload = () => {
-          if (window.anime) {
-            animateHero();
-          }
-        };
-        document.head.appendChild(script);
-      } else if (window.anime) {
-        animateHero();
-      }
-    };
-
-    const animateHero = () => {
-      // Hero entrance animation - much faster
-      const timeline = window.anime.timeline({
-        easing: 'easeOutExpo',
-        duration: 400
-      });
-
-      timeline
-        .add({
-          targets: titleRef.current,
-          translateY: [-20, 0],
-          opacity: [0, 1],
-          duration: 400,
-        })
-        .add({
-          targets: subtitleRef.current,
-          translateY: [-15, 0],
-          opacity: [0, 1],
-          duration: 300,
-          offset: '-=200',
-        })
-        .add({
-          targets: buttonsRef.current,
-          translateY: [15, 0],
-          opacity: [0, 1],
-          duration: 300,
-          offset: '-=150',
-        })
-        .add({
-          targets: statsRef.current,
-          translateY: [15, 0],
-          opacity: [0, 1],
-          duration: 300,
-          offset: '-=100',
-        })
-        .add({
-          targets: codeWindowRef.current,
-          translateX: [10, 0],
-          opacity: [0, 1],
-          scale: [0.98, 1],
-          duration: 200,
-          offset: '-=50',
-        });
-
-      // Floating animation for gradient orbs - faster
-      window.anime({
-        targets: '.gradientOrb1, .gradientOrb2, .gradientOrb3',
-        translateY: [0, -10, 0],
-        translateX: [0, 5, 0],
-        scale: [1, 1.02, 1],
-        duration: 3000,
-        easing: 'easeInOutSine',
-        loop: true,
-        direction: 'alternate',
-      });
-
-      // Code window typing effect - super fast
-      const codeLines = codeWindowRef.current?.querySelectorAll('.codeLine');
-      if (codeLines) {
-        window.anime({
-          targets: codeLines,
-          opacity: [0, 1],
-          translateX: [-3, 0],
-          duration: 150,
-          delay: window.anime.stagger(20),
-          easing: 'easeOutExpo',
-        });
-      }
-    };
-
-    loadAnime();
-  }, []);
 
   return (
     <section ref={heroRef} className={styles.hero}>
@@ -222,117 +133,6 @@ function HeroSection() {
   );
 }
 
-function HorizontalScrollSection() {
-  const sectionRef = useRef<HTMLElement>(null);
-  const stickyRef = useRef<HTMLDivElement>(null);
-  const trackRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    const sectionElement = sectionRef.current;
-    const stickyElement = stickyRef.current;
-    const trackElement = trackRef.current;
-    if (!sectionElement || !stickyElement || !trackElement) return;
-
-    const clamp = (value: number, min: number, max: number) => Math.min(Math.max(value, min), max);
-
-    const setSectionHeight = () => {
-      const viewportWidth = window.innerWidth;
-      const viewportHeight = window.innerHeight;
-      const totalTrackWidth = trackElement.scrollWidth;
-      const extraScroll = Math.max(totalTrackWidth - viewportWidth, 0);
-      sectionElement.style.height = `${viewportHeight + extraScroll}px`;
-    };
-
-    let animationFrameId = 0;
-    const onScroll = () => {
-      if (animationFrameId) return;
-      animationFrameId = window.requestAnimationFrame(() => {
-        const rect = sectionElement.getBoundingClientRect();
-        const viewportHeight = window.innerHeight;
-        const progressRaw = -rect.top / (sectionElement.offsetHeight - viewportHeight);
-        const progress = clamp(progressRaw, 0, 1);
-        const maxTranslate = Math.max(trackElement.scrollWidth - window.innerWidth, 0);
-        const translateX = -progress * maxTranslate;
-        trackElement.style.transform = `translate3d(${translateX}px, 0, 0)`;
-        animationFrameId = 0;
-      });
-    };
-
-    // Initialize sizes and positions
-    setSectionHeight();
-    onScroll();
-
-    // Recompute on resize (debounced via RAF)
-    const onResize = () => {
-      window.requestAnimationFrame(() => {
-        setSectionHeight();
-        onScroll();
-      });
-    };
-
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onResize);
-
-    // Prefer-reduced-motion: stop transforms
-    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const handlePRM = () => {
-      if (mediaQuery.matches) {
-        trackElement.style.transform = 'none';
-      } else {
-        onScroll();
-      }
-    };
-    mediaQuery.addEventListener?.('change', handlePRM);
-
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onResize);
-      mediaQuery.removeEventListener?.('change', handlePRM);
-      if (animationFrameId) window.cancelAnimationFrame(animationFrameId);
-    };
-  }, []);
-
-  return (
-    <section ref={sectionRef} className={styles.horizontalSection}>
-      <div ref={stickyRef} className={styles.horizontalSticky}>
-        <div ref={trackRef} className={styles.horizontalTrack}>
-          <div className={styles.panel}>
-            <div className={styles.panelInner}>
-              <h3 className={styles.panelTitle}>Build Without Limits</h3>
-              <p className={styles.panelText}>From idea to shipping product, orchestrate your entire workflow with CodeX.</p>
-            </div>
-          </div>
-          <div className={styles.panel}>
-            <div className={styles.panelInner}>
-              <h3 className={styles.panelTitle}>Designer Mode (Beta)</h3>
-              <p className={styles.panelText}>Generate UI, systems, and layouts with natural language.</p>
-            </div>
-          </div>
-          <div className={styles.panel}>
-            <div className={styles.panelInner}>
-              <h3 className={styles.panelTitle}>Auto-Fix Problems</h3>
-              <p className={styles.panelText}>Detect, explain, and fix issues automatically with safe edits.</p>
-            </div>
-          </div>
-          <div className={styles.panel}>
-            <div className={styles.panelInner}>
-              <h3 className={styles.panelTitle}>Git-Native</h3>
-              <p className={styles.panelText}>Commit, branch, and review – all inside your AI workflow.</p>
-            </div>
-          </div>
-          <div className={styles.panel}>
-            <div className={styles.panelInner}>
-              <h3 className={styles.panelTitle}>27+ Models, Free</h3>
-              <p className={styles.panelText}>Claude 3.5 Haiku, Gemini 2.5 Flash, and many more at your fingertips.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function FeaturesSection() {
   const featuresRef = useRef<HTMLElement>(null);
@@ -375,31 +175,6 @@ function FeaturesSection() {
     }
   ];
 
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && window.anime) {
-          // Animate feature cards
-          window.anime({
-            targets: '.featureCard',
-            translateY: [50, 0],
-            opacity: [0, 1],
-            scale: [0.9, 1],
-            duration: 800,
-            delay: window.anime.stagger(150),
-            easing: 'easeOutExpo',
-          });
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1 });
-
-    if (featuresRef.current) {
-      observer.observe(featuresRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <section ref={featuresRef} className={styles.features}>
@@ -444,30 +219,6 @@ function ModelsSection() {
     { name: 'Mistral Small', type: 'Free', color: '#F7DC6F' }
   ];
 
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && window.anime) {
-          // Animate model cards
-          window.anime({
-            targets: '.modelCard',
-            translateX: [-50, 0],
-            opacity: [0, 1],
-            duration: 600,
-            delay: window.anime.stagger(100),
-            easing: 'easeOutExpo',
-          });
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1 });
-
-    if (modelsRef.current) {
-      observer.observe(modelsRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <section ref={modelsRef} className={styles.modelsSection}>
@@ -505,31 +256,29 @@ function ModelsSection() {
 
 function VideoSection() {
   const videoRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && window.anime) {
-          // Animate video section
-          window.anime({
-            targets: '.videoContainer',
-            translateY: [30, 0],
-            opacity: [0, 1],
-            scale: [0.95, 1],
-            duration: 1000,
-            easing: 'easeOutExpo',
-          });
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1 });
-
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
+  
+  const keyPoints = [
+    {
+      title: "Build Without Limits",
+      text: "From idea to shipping product, orchestrate your entire workflow with CodeX."
+    },
+    {
+      title: "Designer Mode (Beta)",
+      text: "Generate UI, systems, and layouts with natural language."
+    },
+    {
+      title: "Auto-Fix Problems",
+      text: "Detect, explain, and fix issues automatically with safe edits."
+    },
+    {
+      title: "Git-Native",
+      text: "Commit, branch, and review – all inside your AI workflow."
+    },
+    {
+      title: "27+ Models, Free",
+      text: "Claude 3.5 Haiku, Gemini 2.5 Flash, and many more at your fingertips."
     }
-
-    return () => observer.disconnect();
-  }, []);
+  ];
 
   return (
     <section ref={videoRef} className={styles.videoSection}>
@@ -555,6 +304,17 @@ function VideoSection() {
             Your browser does not support the video tag.
           </video>
         </div>
+        
+        <div className={styles.keyPointsGrid}>
+          {keyPoints.map((point, idx) => (
+            <div key={idx} className={styles.keyPointCard}>
+              <div className={styles.keyPointContent}>
+                <h3 className={styles.keyPointTitle}>{point.title}</h3>
+                <p className={styles.keyPointText}>{point.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -563,29 +323,6 @@ function VideoSection() {
 function CTASection() {
   const ctaRef = useRef<HTMLElement>(null);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && window.anime) {
-          // Animate CTA section
-          window.anime({
-            targets: '.ctaContent',
-            translateY: [30, 0],
-            opacity: [0, 1],
-            duration: 800,
-            easing: 'easeOutExpo',
-          });
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1 });
-
-    if (ctaRef.current) {
-      observer.observe(ctaRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <section ref={ctaRef} className={styles.cta}>
@@ -619,6 +356,21 @@ function CTASection() {
           </div>
           <div className={styles.thankYouMessage}>
             <p>Special thanks to <a href="https://github.com/dyad-sh" target="_blank" rel="noopener noreferrer">dyad-sh</a> for making their work open source 🙏</p>
+            <div className={styles.sponsorLogos}>
+              <p className={styles.sponsorLabel}>Sponsored by:</p>
+              <a 
+                href="https://layer7.net/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={styles.sponsorLogo}
+              >
+                <img 
+                  src="/img/Layer7.png" 
+                  alt="Layer7 Networks" 
+                  className={styles.sponsorImage}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -633,7 +385,6 @@ export default function Home(): ReactNode {
       description="CodeX - Revolutionary AI development platform with 27+ AI models, Designer Mode, Thinking Budget System, and seamless workflow automation. Download free for Windows, macOS, and Linux.">
       <HeroSection />
       <VideoSection />
-      <HorizontalScrollSection />
       <FeaturesSection />
       <ModelsSection />
       <CTASection />
