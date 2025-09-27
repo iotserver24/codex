@@ -375,7 +375,6 @@ export default function Home(): ReactNode {
       <FeaturesSection />
       <ModelsSection />
       <CTASection />
-      <SponsorshipLogos title="Sponsored by" />
     </Layout>
   );
 }
