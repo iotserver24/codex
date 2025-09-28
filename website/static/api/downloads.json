@@ -6,6 +6,7 @@
       "isLatest": true,
       "isStable": true,
       "description": "Complete app rebrand to Xibe AI with MCP tools integration, enhanced Agent-MCP mode, share preview option, and universal thinking support. All Pro features now free!",
+      "changelogUrl": "https://github.com/iotserver24/codex/releases/tag/v1.3.0",
       "downloads": {
         "windows": [
           {
@@ -69,6 +70,7 @@
       "isLatest": false,
       "isStable": true,
       "description": "Designer Mode (Beta), Thinking Budget System, Auto-Fix Problems, Native Git Support, Auto-Update System, and 27+ AI models including Claude 3.5 Haiku and Gemini 2.5 Flash Lite for free!",
+      "changelogUrl": "https://github.com/iotserver24/codex/releases/tag/v1.0.6",
       "downloads": {
         "windows": [
           {
@@ -132,6 +134,7 @@
       "isLatest": false,
       "isStable": false,
       "description": "Vercel integration and enhanced features",
+      "changelogUrl": "https://github.com/iotserver24/codex/releases/tag/v1.0.4",
       "downloads": {
         "windows": [
           {
@@ -171,6 +174,7 @@
       "isLatest": false,
       "isStable": false,
       "description": "Major update with Smart Context, Auto Error Fixing, and Turbo Edits",
+      "changelogUrl": "https://github.com/iotserver24/codex/releases/tag/v1.0.2",
       "downloads": {
         "windows": [
           {
@@ -210,6 +214,7 @@
       "isLatest": false,
       "isStable": false,
       "description": "In this update, many issues has been fixed and given new updates",
+      "changelogUrl": "https://github.com/iotserver24/codex/releases/tag/v1.0.1",
       "downloads": {
         "windows": [
           {
@@ -249,6 +254,7 @@
       "isLatest": false,
       "isStable": false,
       "description": "added logo",
+      "changelogUrl": "https://github.com/iotserver24/codex/releases/tag/v1.0.0",
       "downloads": {
         "windows": [
           {
@@ -288,7 +294,8 @@
     "date": "2025-01-28",
     "isLatest": true,
     "isStable": true,
-    "description": "Complete app rebrand to Xibe AI with MCP tools integration, enhanced Agent-MCP mode, share preview option, and universal thinking support. All Pro features now free!"
+    "description": "Complete app rebrand to Xibe AI with MCP tools integration, enhanced Agent-MCP mode, share preview option, and universal thinking support. All Pro features now free!",
+    "changelogUrl": "https://github.com/iotserver24/codex/releases/tag/v1.3.0"
   },
   "totalVersions": 5,
   "apiInfo": {
