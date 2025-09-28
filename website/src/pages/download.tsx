@@ -7,9 +7,72 @@ import styles from './download.module.css';
 
 const releases = [
   {
+    version: '1.2.2',
+    date: '2025-09-28',
+    isLatest: true,
+    isStable: true,
+    description: 'Complete app rebrand to Xibe AI, MCP Tools Integration, Enhanced Agent-MCP Mode, Share Preview Option, Universal Thinking Support, E2B Integration, and Free Pro Features.',
+    downloads: {
+      windows: [
+        {
+          name: 'Windows (x64)',
+          url: 'https://github.com/iotserver24/codex/releases/download/v1.2.2/codex-1.2.2-windows-x64.exe',
+          type: 'exe',
+          arch: 'x64'
+        },
+        {
+          name: 'Windows (ARM64)',
+          url: 'https://github.com/iotserver24/codex/releases/download/v1.2.2/codex-1.2.2-windows-arm64.exe',
+          type: 'exe',
+          arch: 'ARM64'
+        }
+      ],
+      macos: [
+        {
+          name: 'Mac (ARM64)',
+          url: 'https://github.com/iotserver24/codex/releases/download/v1.2.2/codex-1.2.2-macos-arm64.zip',
+          type: 'zip',
+          arch: 'ARM64'
+        },
+        {
+          name: 'Mac (x64)',
+          url: 'https://github.com/iotserver24/codex/releases/download/v1.2.2/codex-1.2.2-macos-x64.zip',
+          type: 'zip',
+          arch: 'x64'
+        }
+      ],
+      linux: [
+        {
+          name: 'Linux (x64) DEB',
+          url: 'https://github.com/iotserver24/codex/releases/download/v1.2.2/codex-1.2.2-linux-x64.deb',
+          type: 'deb',
+          arch: 'x64'
+        },
+        {
+          name: 'Linux (ARM64) DEB',
+          url: 'https://github.com/iotserver24/codex/releases/download/v1.2.2/codex-1.2.2-linux-arm64.deb',
+          type: 'deb',
+          arch: 'ARM64'
+        },
+        {
+          name: 'Linux (x64) RPM',
+          url: 'https://github.com/iotserver24/codex/releases/download/v1.2.2/codex-1.2.2-linux-x64.rpm',
+          type: 'rpm',
+          arch: 'x64'
+        },
+        {
+          name: 'Linux (ARM64) RPM',
+          url: 'https://github.com/iotserver24/codex/releases/download/v1.2.2/codex-1.2.2-linux-arm64.rpm',
+          type: 'rpm',
+          arch: 'ARM64'
+        }
+      ]
+    }
+  },
+  {
     version: '1.0.8',
     date: '2025-01-28',
-    isLatest: true,
+    isLatest: false,
     isStable: true,
     description: 'Added 5 new themes with app-wide color variables, improved text contrast across the UI, theme-aware chat inputs and title bar window controls, and macOS CI improvements.',
     downloads: {
@@ -459,7 +522,8 @@ function VersionSection({ release, isExpanded, onToggle }: {
 
 export default function DownloadPage(): JSX.Element {
   const [expandedVersions, setExpandedVersions] = useState<{ [key: string]: boolean }>({
-    '1.0.8': true, // Latest version expanded by default
+    '1.2.2': true, // Latest version expanded by default
+    '1.0.8': false,
     '1.0.6': false,
     '1.0.4': false,
     '1.0.2': false,
