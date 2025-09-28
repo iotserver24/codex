@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Supported AI Models
 
-CodeX supports a comprehensive range of AI models from multiple providers, giving you unparalleled flexibility for different coding tasks and requirements. With **40+ models** across **8+ providers**, you can choose the perfect AI for any development task.
+Xibe AI supports a comprehensive range of AI models from multiple providers, giving you unparalleled flexibility for different coding tasks and requirements. With **40+ models** across **8+ providers**, you can choose the perfect AI for any development task.
 
 ## Quick Model Selection
 
@@ -42,8 +42,8 @@ CodeX supports a comprehensive range of AI models from multiple providers, givin
 
 ## Free Providers 🆓
 
-### CodeX Provider (Free)
-All CodeX Provider models are free to use with no API key required:
+### Xibe AI Provider (Free)
+All Xibe AI Provider models are free to use with no API key required:
 
 | Model Name          | Description                                 | Features     | Best For |
 |---------------------|---------------------------------------------|--------------|----------|
@@ -117,7 +117,7 @@ All CodeX Provider models are free to use with no API key required:
 
 ## Special Providers
 
-### CodeX Auto
+### Xibe AI Auto
 | Model Name| Description                      | Notes        |
 |-----------|----------------------------------|--------------|
 | auto      | Automatically selects best model | Default, Smart Selection |
@@ -180,7 +180,7 @@ Specialized models for code generation and development:
 - **Powerful**: gpt-5, claude-sonnet-4-20250514, claude-3-7-sonnet-latest
 
 ### Cost Efficiency
-- **Free**: All CodeX Provider models, Local models
+- **Free**: All Xibe AI Provider models, Local models
 - **Economy**: gpt-5-nano, gpt-4.1-nano, claude-3-5-haiku-20241022
 - **Standard**: gpt-5-mini, gpt-4.1-mini, claude-3-5-sonnet-20241022
 - **Premium**: gpt-5, gpt-4.1, claude-sonnet-4-20250514
@@ -188,7 +188,7 @@ Specialized models for code generation and development:
 ## Setup & Configuration
 
 ### Free Models Setup
-1. **CodeX Provider**: No setup required - works out of the box
+1. **Xibe AI Provider**: No setup required - works out of the box
 2. **Google Free Tier**: Requires Google API key setup
 3. **OpenRouter Free**: Requires OpenRouter account setup
 4. **Local Models**: Install Ollama or LM Studio
@@ -198,7 +198,7 @@ Specialized models for code generation and development:
 2. **Anthropic**: Get API key from [console.anthropic.com](https://console.anthropic.com)
 3. **Google**: Get API key from [ai.google.dev](https://ai.google.dev)
 
-### CodeX Auto Configuration
+### Xibe AI Auto Configuration
 - **Automatic**: Works without any configuration
 - **Smart Selection**: Analyzes your task and selects the best model
 - **Cost Optimization**: Balances performance with cost efficiency
@@ -209,15 +209,15 @@ Specialized models for code generation and development:
 - 🆓 **Free providers** require no API key or payment
 - 💳 **Paid providers** require you to set up an API key and billing
 - **Local models** run entirely on your machine for complete privacy
-- **CodeX Auto** automatically selects the best model for your task
+- **Xibe AI Auto** automatically selects the best model for your task
 - **Turbo Edits** provide advanced code editing capabilities on premium models
 - For detailed model configuration, see the in-app model picker
 
 ## Getting Started with Models
 
-1. **Free Users**: Start with CodeX Provider models - no setup required!
+1. **Free Users**: Start with Xibe AI Provider models - no setup required!
 2. **Premium Users**: Configure API keys in settings for OpenAI, Anthropic, or Google models
 3. **Local Users**: Install Ollama or LM Studio for offline AI assistance
-4. **Auto Users**: Use CodeX Auto for automatic model selection
+4. **Auto Users**: Use Xibe AI Auto for automatic model selection
 
 For setup instructions, see our [Getting Started](getting-started) guide and [AI Models](ai-models) documentation. 

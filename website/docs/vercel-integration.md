@@ -4,14 +4,14 @@ sidebar_position: 5
 
 # Vercel Integration
 
-CodeX provides seamless integration with Vercel for deploying your applications directly from the platform.
+Xibe AI provides seamless integration with Vercel for deploying your applications directly from the platform.
 
 ## Overview
 
-Vercel integration in CodeX allows you to:
+Vercel integration in Xibe AI allows you to:
 - Deploy applications to Vercel with one click
-- Manage Vercel projects directly from CodeX
-- Connect existing Vercel projects to your CodeX apps
+- Manage Vercel projects directly from Xibe AI
+- Connect existing Vercel projects to your Xibe AI apps
 - Monitor deployments and performance
 - Configure custom domains and environments
 
@@ -21,7 +21,7 @@ Vercel integration in CodeX allows you to:
 
 1. **Vercel Account**: Create a free account at [vercel.com](https://vercel.com)
 2. **Vercel Token**: Generate an access token from your Vercel dashboard
-3. **Environment Variable**: Add your Vercel token to CodeX settings
+3. **Environment Variable**: Add your Vercel token to Xibe AI settings
 
 ### Setting Up Vercel Integration
 
@@ -31,12 +31,12 @@ Vercel integration in CodeX allows you to:
 2. **Access Tokens**: Navigate to Settings → Tokens
 3. **Create Token**: Click "Create Token"
 4. **Configure Token**:
-   - **Name**: `CodeX Integration`
+   - **Name**: `Xibe AI Integration`
    - **Expiration**: Choose appropriate expiration (recommend 1 year)
    - **Scopes**: Select "Full Account" for full access
 5. **Copy Token**: Save the generated token securely
 
-#### Step 2: Add Token to CodeX
+#### Step 2: Add Token to Xibe AI
 
 1. **Open Settings**: Go to Settings → General
 2. **Environment Variables**: Find the Environment Variables section
@@ -49,11 +49,11 @@ Vercel integration in CodeX allows you to:
 
 ### Connecting to Existing Projects
 
-1. **Open App Details**: Navigate to your app in CodeX
+1. **Open App Details**: Navigate to your app in Xibe AI
 2. **Vercel Tab**: Click on the "Vercel" tab
 3. **Connect Project**: Click "Connect to Vercel Project"
 4. **Select Project**: Choose from your existing Vercel projects
-5. **Confirm**: The project will be linked to your CodeX app
+5. **Confirm**: The project will be linked to your Xibe AI app
 
 ### Creating New Vercel Projects
 
@@ -70,7 +70,7 @@ Vercel integration in CodeX allows you to:
 
 ### Automatic Deployment
 
-CodeX can automatically deploy your app to Vercel:
+Xibe AI can automatically deploy your app to Vercel:
 
 1. **Enable Auto-Deploy**: Toggle "Auto Deploy" in the Vercel tab
 2. **Configure Triggers**: Set when deployments should occur:
@@ -150,7 +150,7 @@ Configure custom build commands for your project:
 
 ### Framework Detection
 
-CodeX automatically detects your project framework:
+Xibe AI automatically detects your project framework:
 
 - **Next.js**: Automatic Next.js configuration
 - **React**: Standard React build setup
@@ -275,14 +275,14 @@ CodeX automatically detects your project framework:
 
 ### Documentation
 - [Vercel Documentation](https://vercel.com/docs)
-- [CodeX Vercel Integration Guide](https://codex.anishkumar.tech/docs/vercel-integration)
+- [Xibe AI Vercel Integration Guide](https://codex.anishkumar.tech/docs/vercel-integration)
 - [Framework Guides](https://vercel.com/docs/frameworks)
 
 ### Community
 - [Vercel Community](https://github.com/vercel/vercel/discussions)
-- [CodeX Discord](https://discord.gg/codex)
+- [Xibe AI Discord](https://discord.gg/codex)
 - [GitHub Issues](https://github.com/iotserver24/codex/issues)
 
 ### Support
 - **Vercel Support**: [support.vercel.com](https://support.vercel.com)
-- **CodeX Support**: [codex.anishkumar.tech/support](https://codex.anishkumar.tech/support) 
+- **Xibe AI Support**: [codex.anishkumar.tech/support](https://codex.anishkumar.tech/support) 

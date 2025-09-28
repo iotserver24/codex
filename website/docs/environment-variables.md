@@ -4,11 +4,11 @@ sidebar_position: 4
 
 # Environment Variables
 
-CodeX provides powerful environment variable management to help you configure your applications and AI providers securely.
+Xibe AI provides powerful environment variable management to help you configure your applications and AI providers securely.
 
 ## Overview
 
-Environment variables in CodeX allow you to:
+Environment variables in Xibe AI allow you to:
 - Store API keys and sensitive configuration securely
 - Configure different environments (development, staging, production)
 - Manage AI provider credentials
@@ -50,7 +50,7 @@ VERCEL_TOKEN=your-vercel-token
 
 ## Per-App Environment Variables
 
-CodeX supports both global and per-app environment variables:
+Xibe AI supports both global and per-app environment variables:
 
 ### Global Variables
 - Available across all projects
@@ -71,7 +71,7 @@ CodeX supports both global and per-app environment variables:
 
 ## Environment Variable Precedence
 
-CodeX follows this precedence order (highest to lowest):
+Xibe AI follows this precedence order (highest to lowest):
 1. App-specific variables
 2. Global variables
 3. System environment variables
@@ -181,9 +181,9 @@ LOG_LEVEL=error
 
 ## Integration with AI Providers
 
-Environment variables are automatically used by CodeX's AI providers:
+Environment variables are automatically used by Xibe AI's AI providers:
 
-1. **Automatic Detection**: CodeX detects and uses relevant variables
+1. **Automatic Detection**: Xibe AI detects and uses relevant variables
 2. **Provider Selection**: Variables determine which providers are available
 3. **Model Access**: API keys enable access to specific models
 4. **Rate Limiting**: Proper configuration ensures optimal usage

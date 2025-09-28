@@ -4,12 +4,12 @@ sidebar_position: 6
 
 # Supabase Integration
 
-CodeX provides powerful integration with Supabase for database management, authentication, and real-time features.
+Xibe AI provides powerful integration with Supabase for database management, authentication, and real-time features.
 
 ## Overview
 
-Supabase integration in CodeX allows you to:
-- Connect to Supabase databases directly from CodeX
+Supabase integration in Xibe AI allows you to:
+- Connect to Supabase databases directly from Xibe AI
 - Generate and manage database schemas
 - Create and run SQL migrations
 - Set up authentication systems
@@ -23,7 +23,7 @@ Supabase integration in CodeX allows you to:
 1. **Supabase Account**: Create a free account at [supabase.com](https://supabase.com)
 2. **Supabase Project**: Create a new project in your Supabase dashboard
 3. **API Keys**: Get your project URL and API keys
-4. **Environment Variables**: Add Supabase credentials to CodeX
+4. **Environment Variables**: Add Supabase credentials to Xibe AI
 
 ### Setting Up Supabase Integration
 
@@ -45,7 +45,7 @@ Supabase integration in CodeX allows you to:
    - **Anon Key**: Public API key
    - **Service Role Key**: Private API key (keep secure)
 
-#### Step 3: Add to CodeX
+#### Step 3: Add to Xibe AI
 
 1. **Open Settings**: Go to Settings → General
 2. **Environment Variables**: Add the following variables:
@@ -59,7 +59,7 @@ Supabase integration in CodeX allows you to:
 
 ### Connecting to Database
 
-1. **Open App Details**: Navigate to your app in CodeX
+1. **Open App Details**: Navigate to your app in Xibe AI
 2. **Supabase Tab**: Click on the "Supabase" tab
 3. **Connect Database**: Click "Connect to Supabase"
 4. **Enter Credentials**: Input your Supabase URL and keys
@@ -508,14 +508,14 @@ export function useSupabase() {
 
 ### Documentation
 - [Supabase Documentation](https://supabase.com/docs)
-- [CodeX Supabase Integration Guide](https://codex.anishkumar.tech/docs/supabase-integration)
+- [Xibe AI Supabase Integration Guide](https://codex.anishkumar.tech/docs/supabase-integration)
 - [API Reference](https://supabase.com/docs/reference)
 
 ### Community
 - [Supabase Community](https://github.com/supabase/supabase/discussions)
-- [CodeX Discord](https://discord.gg/codex)
+- [Xibe AI Discord](https://discord.gg/codex)
 - [GitHub Issues](https://github.com/iotserver24/codex/issues)
 
 ### Support
 - **Supabase Support**: [supabase.com/support](https://supabase.com/support)
-- **CodeX Support**: [codex.anishkumar.tech/support](https://codex.anishkumar.tech/support) 
+- **Xibe AI Support**: [codex.anishkumar.tech/support](https://codex.anishkumar.tech/support) 

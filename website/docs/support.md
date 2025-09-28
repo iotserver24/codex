@@ -2,14 +2,14 @@
 sidebar_position: 8
 ---
 
-# Support CodeX 💝
+# Support Xibe AI 💝
 
-CodeX is a **completely free** AI development platform, and we're committed to keeping it that way! However, building and maintaining cutting-edge AI tools requires significant resources, and your support makes all the difference.
+Xibe AI is a **completely free** AI development platform, and we're committed to keeping it that way! However, building and maintaining cutting-edge AI tools requires significant resources, and your support makes all the difference.
 
 ## 🌟 **Why Your Support Matters**
 
 ### 🎯 **Our Mission**
-We believe that powerful AI development tools shouldn't be locked behind expensive subscriptions. While competitors charge $7-30/month, we provide **CodeX free forever** to democratize AI-powered development.
+We believe that powerful AI development tools shouldn't be locked behind expensive subscriptions. While competitors charge $7-30/month, we provide **Xibe AI free forever** to democratize AI-powered development.
 
 ### 💰 **The Cost Reality**
 Running a world-class AI platform involves:
@@ -72,7 +72,7 @@ Running a world-class AI platform involves:
 
 ### 🏢 **Corporate Sponsorship**
 
-Is your company using CodeX? Consider becoming a corporate sponsor:
+Is your company using Xibe AI? Consider becoming a corporate sponsor:
 
 | Tier | Contribution | Benefits |
 |------|-------------|----------|
@@ -87,7 +87,7 @@ Is your company using CodeX? Consider becoming a corporate sponsor:
 - **📝 Contribute to documentation**: Improve guides and tutorials
 - **🐛 Report bugs**: Help us improve quality and stability
 - **💬 Join discussions**: Share feedback and feature requests
-- **📢 Spread the word**: Tell other developers about CodeX
+- **📢 Spread the word**: Tell other developers about Xibe AI
 
 ## 🏆 **Supporter Recognition**
 
@@ -139,7 +139,7 @@ We believe in complete transparency about how your donations are used:
 - 📊 Advanced analytics and insights
 - 🌍 Multi-language interface support
 
-## 💡 **Why Not Charge for CodeX?**
+## 💡 **Why Not Charge for Xibe AI?**
 
 We get this question a lot! Here's why we stay free:
 
@@ -165,4 +165,4 @@ Have questions about supporting us? Want to discuss corporate sponsorship?
 
 ---
 
-**Every contribution, no matter the size, helps us keep CodeX free and continuously improving. Thank you for being part of our mission to democratize AI-powered development!** 🚀 
+**Every contribution, no matter the size, helps us keep Xibe AI free and continuously improving. Thank you for being part of our mission to democratize AI-powered development!** 🚀 

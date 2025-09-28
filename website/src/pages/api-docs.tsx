@@ -7,15 +7,15 @@ import styles from './api-docs.module.css';
 export default function ApiDocsPage(): JSX.Element {
   return (
     <Layout
-      title="CodeX Downloads API"
-      description="API documentation for CodeX downloads - integrate download information into your applications"
+      title="Xibe AI Downloads API"
+      description="API documentation for Xibe AI downloads - integrate download information into your applications"
     >
       <main className={styles.main}>
         <div className="container">
           <div className={styles.header}>
-            <h1 className={styles.title}>📡 CodeX Downloads API</h1>
+            <h1 className={styles.title}>📡 Xibe AI Downloads API</h1>
             <p className={styles.subtitle}>
-              Access download information programmatically for all CodeX releases
+              Access download information programmatically for all Xibe AI releases
             </p>
           </div>
 

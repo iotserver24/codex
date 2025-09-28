@@ -235,6 +235,6 @@
       "specificVersion": "Filter releases array by version",
       "platformDownloads": "Filter latest.downloads by platform (windows/macos/linux)"
     },
-    "usage": "This API provides download information for all CodeX releases. Access the JSON file directly or parse it in your application to get download URLs and metadata."
+    "usage": "This API provides download information for all Xibe AI releases. Access the JSON file directly or parse it in your application to get download URLs and metadata."
   }
 }

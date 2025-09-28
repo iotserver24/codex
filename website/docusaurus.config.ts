@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'VibeStack Codex',
-  tagline: 'Free collaborative AI development platform',
+  title: 'Xibe AI',
+  tagline: 'Advanced AI-powered development platform',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://iotserver24.github.io',
+  url: 'https://xibe.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/iotserver24/codex/tree/main/docs/website/',
+            'https://github.com/iotserver24/codex/tree/main/codex/website/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -53,11 +53,11 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/vibestack-codex-social-card.jpg',
+    image: 'img/xibe-ai-social-card.jpg',
     navbar: {
-      title: 'VibeStack Codex',
+      title: 'Xibe AI',
       logo: {
-        alt: 'VibeStack Codex Logo',
+        alt: 'Xibe AI Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -78,7 +78,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://razorpay.me/@megavault',
+          href: 'https://xibe.app/donate',
           label: '💝 Donate',
           position: 'right',
           className: 'navbar-donate-button',
@@ -135,7 +135,7 @@ const config: Config = {
             },
             {
               label: 'Donate',
-              href: 'https://razorpay.me/@megavault',
+              href: 'https://xibe.app/donate',
             },
             {
               label: 'Privacy Policy',
@@ -148,7 +148,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} VibeStack Codex. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Xibe AI. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

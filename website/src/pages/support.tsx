@@ -14,12 +14,12 @@ export default function Support(): JSX.Element {
 
   const faqs = [
     {
-      question: "How do I get started with CodeX?",
-      answer: "Download CodeX from our website, install it on your system, and start by creating your first project. You can then configure AI providers and begin coding with AI assistance."
+      question: "How do I get started with Xibe AI?",
+      answer: "Download Xibe AI from our website, install it on your system, and start by creating your first project. You can then configure AI providers and begin coding with AI assistance."
     },
     {
       question: "Which AI models are supported?",
-      answer: "CodeX supports 50+ AI models including OpenAI's GPT-4, Anthropic's Claude, Google's Gemini, and many others. You can configure multiple providers and switch between them easily."
+      answer: "Xibe AI supports 50+ AI models including OpenAI's GPT-4, Anthropic's Claude, Google's Gemini, and many others. You can configure multiple providers and switch between them easily."
     },
     {
       question: "How do I configure API keys?",
@@ -27,23 +27,23 @@ export default function Support(): JSX.Element {
     },
     {
       question: "Is my code and data secure?",
-      answer: "Yes! CodeX stores all your data locally on your device. We don't transmit your code to our servers unless you explicitly choose to share it. API keys are encrypted and stored securely."
+      answer: "Yes! Xibe AI stores all your data locally on your device. We don't transmit your code to our servers unless you explicitly choose to share it. API keys are encrypted and stored securely."
     },
     {
-      question: "Can I use CodeX offline?",
-      answer: "CodeX works offline for most features like project management and code editing. However, AI features require an internet connection to communicate with AI providers."
+      question: "Can I use Xibe AI offline?",
+      answer: "Xibe AI works offline for most features like project management and code editing. However, AI features require an internet connection to communicate with AI providers."
     },
     {
       question: "How do I integrate with GitHub/Vercel/Supabase?",
-      answer: "CodeX has built-in integrations for popular development platforms. Go to the respective sections in the app to configure your connections and start deploying directly from CodeX."
+      answer: "Xibe AI has built-in integrations for popular development platforms. Go to the respective sections in the app to configure your connections and start deploying directly from Xibe AI."
     },
     {
       question: "What if I encounter bugs or issues?",
       answer: "You can report issues on our GitHub repository, contact us via email, or check our documentation for troubleshooting guides."
     },
     {
-      question: "Is CodeX free to use?",
-      answer: "CodeX is completely free to download and use. You only pay for the AI services you choose to use (OpenAI, Anthropic, etc.) according to their pricing."
+      question: "Is Xibe AI free to use?",
+      answer: "Xibe AI is completely free to download and use. You only pay for the AI services you choose to use (OpenAI, Anthropic, etc.) according to their pricing."
     }
   ];
 
@@ -112,7 +112,7 @@ export default function Support(): JSX.Element {
   return (
     <Layout
       title="Support"
-      description="Get help with CodeX - Contact us, browse FAQs, and find resources">
+      description="Get help with Xibe AI - Contact us, browse FAQs, and find resources">
       <main className={styles.container}>
         <div className={styles.hero}>
           <div className={styles.heroContent}>
@@ -121,7 +121,7 @@ export default function Support(): JSX.Element {
               Support Center
             </h1>
             <p className={styles.subtitle}>
-              Need help with CodeX? We're here to assist you every step of the way.
+              Need help with Xibe AI? We're here to assist you every step of the way.
             </p>
             <p className={styles.subtitle}>
               Choose your preferred way to get support below.

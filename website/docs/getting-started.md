@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Getting Started with CodeX
+# Getting Started with Xibe AI
 
 ## Installation
 
@@ -14,7 +14,7 @@ sidebar_position: 2
    - Run the downloaded installer and follow the on-screen instructions.
 
 ## First Launch
-- Open the CodeX app from your applications menu or desktop shortcut.
+- Open the Xibe AI app from your applications menu or desktop shortcut.
 - On first launch, you may be prompted to move the app to the Applications folder (macOS) for auto-update support.
 - No sign-up or login is required; the app is free to use.
 
@@ -25,6 +25,6 @@ sidebar_position: 2
 - Access settings to configure providers, update preferences, and more.
 
 ## Updates
-- CodeX will automatically check for updates and prompt you when a new version is available.
+- Xibe AI will automatically check for updates and prompt you when a new version is available.
 
 For more details, see the [Features](features) and [Update & Release Process](updates) sections. 

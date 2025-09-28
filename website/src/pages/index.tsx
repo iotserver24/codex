@@ -25,8 +25,32 @@ function HeroSection() {
         <div className={styles.gradientOrb2}></div>
         <div className={styles.gradientOrb3}></div>
       </div>
-      
+
       <div className="container">
+        {/* Rebranding Notice */}
+        <div style={{
+          background: 'rgba(255, 107, 107, 0.1)',
+          border: '1px solid rgba(255, 107, 107, 0.3)',
+          borderRadius: '8px',
+          padding: '12px 16px',
+          marginBottom: '24px',
+          textAlign: 'center',
+          color: '#ff6b6b',
+          fontSize: '14px',
+          fontWeight: '500',
+          backdropFilter: 'blur(10px)',
+          maxWidth: '600px',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+            <span>📢</span>
+            <span>
+              <strong>Rebranding:</strong> CodeX → Xibe AI (all features remain the same)
+            </span>
+          </div>
+        </div>
+
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading ref={titleRef} as="h1" className={styles.heroTitle}>
@@ -35,8 +59,8 @@ function HeroSection() {
               <br />Development
             </Heading>
             <p ref={subtitleRef} className={styles.heroSubtitle}>
-              CodeX is a revolutionary AI development platform that combines 27+ AI models, 
-              intelligent code generation, and seamless workflow automation. Build faster, 
+              Xibe AI is a revolutionary AI development platform that combines 27+ AI models,
+              intelligent code generation, and seamless workflow automation. Build faster,
               smarter, and more efficiently with the power of AI.
             </p>
             
@@ -45,7 +69,7 @@ function HeroSection() {
                 className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
                 to="/download"
               >
-                <RocketIcon size={20} /> Download CodeX Free
+                <RocketIcon size={20} /> Download Xibe AI Free
               </Link>
               <Link 
                 className={clsx('button', 'button--outline', 'button--lg', styles.secondaryButton)}
@@ -63,7 +87,7 @@ function HeroSection() {
               >
                 <img
                   src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1009660&theme=light&t=1756298264612"
-                  alt="CodeX - Build webapps in minutes for complelty free | Product Hunt"
+                  alt="Xibe AI - Build webapps in minutes for complelty free | Product Hunt"
                   width="250"
                   height="54"
                   style={{ width: 250, height: 54 }}
@@ -99,12 +123,12 @@ function HeroSection() {
                   <span></span>
                   <span></span>
                 </div>
-                <span className={styles.windowTitle}>CodeX AI Assistant</span>
+                <span className={styles.windowTitle}>Xibe AI AI Assistant</span>
               </div>
               <div className={styles.windowContent}>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>1</span>
-                  <span className={styles.keyword}>import</span> <span className={styles.string}>{'{ AI }'}</span> <span className={styles.keyword}>from</span> <span className={styles.string}>'@codex/ai'</span>
+                  <span className={styles.keyword}>import</span> <span className={styles.string}>{'{ AI }'}</span> <span className={styles.keyword}>from</span> <span className={styles.string}>'@xibe/ai'</span>
                 </div>
                 <div className={styles.codeLine}>
                   <span className={styles.lineNumber}>2</span>
@@ -165,7 +189,7 @@ function FeaturesSection() {
     {
       icon: '🔄',
       title: 'Native Git Integration',
-      description: 'Seamless Git workflow integration. Commit, push, and manage your repositories directly within CodeX with AI assistance.',
+      description: 'Seamless Git workflow integration. Commit, push, and manage your repositories directly within Xibe AI with AI assistance.',
       gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)'
     },
     {
@@ -261,7 +285,7 @@ function VideoSection() {
   const keyPoints = [
     {
       title: "Build Without Limits",
-      text: "From idea to shipping product, orchestrate your entire workflow with CodeX."
+      text: "From idea to shipping product, orchestrate your entire workflow with Xibe AI."
     },
     {
       title: "Designer Mode (Beta)",
@@ -286,10 +310,10 @@ function VideoSection() {
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
-            See CodeX in Action
+            See Xibe AI in Action
           </Heading>
           <p className={styles.sectionSubtitle}>
-            Watch how CodeX transforms your development workflow with AI assistance
+            Watch how Xibe AI transforms your development workflow with AI assistance
           </p>
         </div>
         
@@ -340,7 +364,7 @@ function CTASection() {
               className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
               to="/download"
             >
-              🚀 Download CodeX Free
+              🚀 Download Xibe AI Free
             </Link>
             <Link
               className={clsx('button', 'button--outline', 'button--lg', styles.ctaSecondary)}
@@ -367,8 +391,8 @@ function CTASection() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="CodeX - AI-Powered Development Platform"
-      description="CodeX - Revolutionary AI development platform with 27+ AI models, Designer Mode, Thinking Budget System, and seamless workflow automation. Download free for Windows, macOS, and Linux.">
+      title="Xibe AI - AI-Powered Development Platform"
+      description="Xibe AI - Revolutionary AI development platform with 27+ AI models, Designer Mode, Thinking Budget System, and seamless workflow automation. Download free for Windows, macOS, and Linux.">
       <HeroSection />
       <VideoSection />
       <SponsorshipLogos title="Sponsored by" />

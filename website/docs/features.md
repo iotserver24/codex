@@ -4,16 +4,16 @@ sidebar_position: 3
 
 # Features
 
-CodeX offers a comprehensive set of features for AI-powered development and collaboration:
+Xibe AI offers a comprehensive set of features for AI-powered development and collaboration:
 
 ## AI Models & Providers
 
 ### Multi-Model Support
 - **40+ AI Models**: Choose from a wide variety of AI models across multiple providers
-- **Free Models**: Access to 24+ free models through CodeX Provider
+- **Free Models**: Access to 24+ free models through Xibe AI Provider
 - **Premium Models**: Support for OpenAI GPT-5, GPT-4.1, Claude, and Google Gemini
 - **Local Models**: Run models locally with Ollama and LM Studio
-- **CodeX Auto**: Intelligent automatic model selection
+- **Xibe AI Auto**: Intelligent automatic model selection
 
 ### Model Categories
 - **Vision Models**: Analyze images, screenshots, and visual content
@@ -194,10 +194,10 @@ CodeX offers a comprehensive set of features for AI-powered development and coll
 
 ## Getting Started
 
-1. **Download & Install**: Get CodeX from our official website
+1. **Download & Install**: Get Xibe AI from our official website
 2. **Choose Your Model**: Start with free models or configure premium ones
 3. **Import Your Project**: Import existing code or start a new project
 4. **Start Chatting**: Begin chatting with AI to get help with your code
-5. **Explore Features**: Discover all the powerful features CodeX offers
+5. **Explore Features**: Discover all the powerful features Xibe AI offers
 
 For detailed setup instructions, see our [Getting Started](getting-started) guide and [AI Models](models) documentation. 

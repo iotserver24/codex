@@ -3,8 +3,8 @@
     "version": "0.9.1",
     "downloadUrl": "https://github.com/iotserver24/codex/releases/latest",
     "downloadPageUrl": "http://localhost:3000/download",
-    "releaseNotes": "CodeX 1.1.1 stable release.",
-    "readmeMarkdown": "# CodeX 1.1.1 (Stable)\n\n- Improved theme system\n- Update UI enhancements\n- Various bug fixes\n\nVisit the download page for installers.",
+    "releaseNotes": "Xibe AI 1.1.1 stable release.",
+    "readmeMarkdown": "# Xibe AI 1.1.1 (Stable)\n\n- Improved theme system\n- Update UI enhancements\n- Various bug fixes\n\nVisit the download page for installers.",
     "updateNotice": "Important: macOS notarization improved. If Gatekeeper warns, right-click the app and choose Open.",
     "updateInfo": [
       "Theme tokens refined for better contrast",
@@ -15,9 +15,9 @@
   "beta": {
     "version": "1.1.0", 
     "downloadUrl": "https://github.com/iotserver24/codex/releases/tag/v1.1.0",
-    "downloadPageUrl": "https://codex.anishkumar.tech/download/beta",
-    "releaseNotes": "CodeX 1.1.0 beta.",
-    "readmeMarkdown": "# CodeX 1.1.0 (Beta)\n\n- New Docs indexing (Beta)\n- Update dialog can render remote README\n- Added Beta badge across Docs\n\n Added library to save goood prompts for later use\n\nUse the Beta download page for OS-specific installers.",
+    "downloadPageUrl": "https://xibe.app/download/beta",
+    "releaseNotes": "Xibe AI 1.1.0 beta.",
+    "readmeMarkdown": "# Xibe AI 1.1.0 (Beta)\n\n- New Docs indexing (Beta)\n- Update dialog can render remote README\n- Added Beta badge across Docs\n\n Added library to save goood prompts for later use\n\nUse the Beta download page for OS-specific installers.",
     "updateNotice": "Heads up: Docs feature is in Beta. Indexing may be slower on large sites.",
     "updateInfo": [
       "Docs indexing improved stability",

@@ -4,25 +4,25 @@ sidebar_position: 7
 
 # AI Models & Providers
 
-CodeX supports 50+ AI models across multiple providers, giving you unparalleled flexibility for different coding tasks and requirements.
+Xibe AI supports 50+ AI models across multiple providers, giving you unparalleled flexibility for different coding tasks and requirements.
 
 ## Overview
 
-CodeX's multi-model approach allows you to:
+Xibe AI's multi-model approach allows you to:
 - Choose the best AI for each specific task
 - Switch between models instantly
 - Use free models for experimentation
 - Access premium models when needed
 - Run models locally for privacy
 - Customize model behavior and parameters
-- Use CodeX Auto for automatic model selection
+- Use Xibe AI Auto for automatic model selection
 
 ## Supported Providers
 
 ### Free Providers 🆓
 
-#### CodeX Provider (Free)
-All CodeX Provider models are free to use:
+#### Xibe AI Provider (Free)
+All Xibe AI Provider models are free to use:
 
 | Model Name          | Description                                 | Features     |
 |---------------------|---------------------------------------------|--------------|
@@ -102,7 +102,7 @@ All CodeX Provider models are free to use:
 
 ### Special Providers
 
-#### CodeX Auto
+#### Xibe AI Auto
 | Model Name| Description                      | Notes        |
 |-----------|----------------------------------|--------------|
 | auto      | Automatically selects best model | Default      |
@@ -135,9 +135,9 @@ All CodeX Provider models are free to use:
 - **Best**: gpt-5, gpt-4.1, grok
 - **Free**: grok, midijourney, mistral, openai, openai-large, qwen-coder, gemini, llama-fast-roblox, llama-roblox, mistral-nemo-roblox, nova-fast, openai-roblox, roblox-rp
 
-## CodeX Auto
+## Xibe AI Auto
 
-CodeX Auto is our intelligent model selection system that automatically chooses the best model for your task:
+Xibe AI Auto is our intelligent model selection system that automatically chooses the best model for your task:
 
 - **Smart Selection**: Analyzes your request and selects the most appropriate model
 - **Cost Optimization**: Balances performance with cost efficiency
@@ -192,9 +192,9 @@ Specialized models for complex problem-solving:
 
 ## Getting Started
 
-1. **Free Users**: Start with CodeX Provider models - no setup required!
+1. **Free Users**: Start with Xibe AI Provider models - no setup required!
 2. **Premium Users**: Configure API keys in settings for OpenAI, Anthropic, or Google models
 3. **Local Users**: Install Ollama or LM Studio for offline AI assistance
-4. **Auto Users**: Use CodeX Auto for automatic model selection
+4. **Auto Users**: Use Xibe AI Auto for automatic model selection
 
 For detailed setup instructions, see our [Getting Started](getting-started) guide. 

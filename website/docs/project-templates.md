@@ -4,11 +4,11 @@ sidebar_position: 8
 
 # Project Templates & Scaffolding
 
-CodeX provides powerful project templates and scaffolding to help you start new projects quickly with best practices and modern tooling.
+Xibe AI provides powerful project templates and scaffolding to help you start new projects quickly with best practices and modern tooling.
 
 ## Overview
 
-Project templates in CodeX allow you to:
+Project templates in Xibe AI allow you to:
 - Create new projects with pre-configured setups
 - Use industry-standard project structures
 - Include essential dependencies and configurations
@@ -114,7 +114,7 @@ Project templates in CodeX allow you to:
 
 ### Step-by-Step Process
 
-1. **Open CodeX**: Launch CodeX application
+1. **Open Xibe AI**: Launch Xibe AI application
 2. **New Project**: Click "Create New Project"
 3. **Choose Template**: Select from available templates
 4. **Configure Project**:
@@ -422,8 +422,8 @@ if (options.database === "postgresql") {
 5. **Support**: Offer community support
 
 ### Finding Templates
-- **CodeX Gallery**: Browse community templates
-- **GitHub Search**: Search for CodeX templates
+- **Xibe AI Gallery**: Browse community templates
+- **GitHub Search**: Search for Xibe AI templates
 - **Community Forums**: Ask for recommendations
 - **Documentation**: Check template documentation
 

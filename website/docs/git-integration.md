@@ -4,11 +4,11 @@ sidebar_position: 10
 
 # Git Integration & Version Control
 
-CodeX provides comprehensive Git integration to help you manage version control, collaborate with teams, and maintain clean project history.
+Xibe AI provides comprehensive Git integration to help you manage version control, collaborate with teams, and maintain clean project history.
 
 ## Overview
 
-Git integration in CodeX allows you to:
+Git integration in Xibe AI allows you to:
 - Initialize and manage Git repositories
 - Stage, commit, and push changes
 - Create and switch between branches
@@ -21,7 +21,7 @@ Git integration in CodeX allows you to:
 
 ### Initializing a Git Repository
 
-1. **Open Project**: Open your project in CodeX
+1. **Open Project**: Open your project in Xibe AI
 2. **Git Tab**: Click on the Git tab in the sidebar
 3. **Initialize**: Click "Initialize Git Repository"
 4. **Configure**: Set up Git configuration if needed
@@ -188,7 +188,7 @@ AI: Analyzes conflict and suggests:
 # Create and switch to feature branch
 git checkout -b feature/new-feature
 
-# Or use CodeX UI
+# Or use Xibe AI UI
 # Click "New Branch" → "feature/new-feature"
 ```
 

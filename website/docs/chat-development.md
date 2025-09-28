@@ -4,11 +4,11 @@ sidebar_position: 9
 
 # Chat-Driven Development
 
-CodeX's chat-driven development approach allows you to build applications through natural language conversations with AI, making coding more intuitive and efficient.
+Xibe AI's chat-driven development approach allows you to build applications through natural language conversations with AI, making coding more intuitive and efficient.
 
 ## Overview
 
-Chat-driven development in CodeX enables you to:
+Chat-driven development in Xibe AI enables you to:
 - Describe features in natural language
 - Generate code through conversation
 - Iterate on code with AI assistance
@@ -20,7 +20,7 @@ Chat-driven development in CodeX enables you to:
 
 ### Starting a Chat Session
 
-1. **Open CodeX**: Launch the CodeX application
+1. **Open Xibe AI**: Launch the Xibe AI application
 2. **Select Project**: Choose or create a project
 3. **Open Chat**: Click on the chat tab or press `Ctrl/Cmd + L`
 4. **Start Conversation**: Begin describing what you want to build
@@ -411,7 +411,7 @@ AI: Provides:
 - **Reduce context**: Use shorter conversations
 - **Switch models**: Try different AI models
 - **Clear cache**: Clear conversation history if needed
-- **Restart app**: Restart CodeX if experiencing issues
+- **Restart app**: Restart Xibe AI if experiencing issues
 
 ### Debugging Steps
 

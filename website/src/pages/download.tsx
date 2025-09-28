@@ -485,8 +485,8 @@ export default function DownloadPage(): JSX.Element {
 
   return (
     <Layout
-      title="Download CodeX"
-      description="Download CodeX - Free AI-powered development platform for Windows, macOS, and Linux"
+      title="Download Xibe AI"
+      description="Download Xibe AI - Free AI-powered development platform for Windows, macOS, and Linux"
     >
       <main className={styles.main}>
         <div className="container">
@@ -497,7 +497,7 @@ export default function DownloadPage(): JSX.Element {
                 <RocketIcon size={48} />
               </div>
             </div>
-            <h1 className={styles.mainTitle}>Download CodeX</h1>
+            <h1 className={styles.mainTitle}>Download Xibe AI</h1>
             
             {/* Primary Download Button */}
             <div className={styles.primaryDownload}>

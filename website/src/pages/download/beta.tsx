@@ -50,13 +50,13 @@ export default function BetaDownloadPage(): React.ReactElement {
   };
 
   return (
-    <Layout title="CodeX Beta Download" description="Download the latest CodeX beta build">
+    <Layout title="Xibe AI Beta Download" description="Download the latest Xibe AI beta build">
       <main style={{ maxWidth: 880, margin: "0 auto", padding: "40px 20px" }}>
         <h1 style={{ margin: 0 }}>
-          Download CodeX <code style={{ padding: "2px 8px", borderRadius: 999, border: "1px solid rgba(127,127,127,0.25)" }}>Beta</code>
+          Download Xibe AI <code style={{ padding: "2px 8px", borderRadius: 999, border: "1px solid rgba(127,127,127,0.25)" }}>Beta</code>
         </h1>
         <p style={{ marginTop: 8, opacity: 0.8 }}>
-          Get the latest public beta build of CodeX. This channel receives features early and may be less stable.
+          Get the latest public beta build of Xibe AI. This channel receives features early and may be less stable.
         </p>
 
         {error ? (

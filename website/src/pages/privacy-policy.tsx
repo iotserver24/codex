@@ -10,7 +10,7 @@ export default function PrivacyPolicy(): JSX.Element {
   return (
     <Layout
       title="Privacy Policy"
-      description="Privacy Policy for VibeStack CodeX - Learn how we collect, use, and protect your data">
+      description="Privacy Policy for Xibe AI - Learn how we collect, use, and protect your data">
       <main className={styles.container}>
         <div className={styles.hero}>
           <div className={styles.heroContent}>
@@ -60,7 +60,7 @@ export default function PrivacyPolicy(): JSX.Element {
               </div>
               <div className={styles.sectionContent}>
                 <p>
-                  Welcome to <strong>VibeStack CodeX</strong> ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our desktop application and related services.
+                  Welcome to <strong>Xibe AI</strong> ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our desktop application and related services.
                 </p>
               </div>
             </section>

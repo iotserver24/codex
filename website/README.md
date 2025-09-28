@@ -1,116 +1,57 @@
-# SponsorshipLogos Component
+# Xibe AI Documentation Website
 
-A dynamic, animated sponsorship logos component that automatically handles any number of sponsors and ensures smooth infinite scrolling.
+This is the documentation website for Xibe AI, built with Docusaurus. It contains comprehensive documentation, guides, and API references for the Xibe AI platform.
 
 ## Features
 
-- **Dynamic Sponsor Support**: Automatically handles any number of sponsors (1 to unlimited)
-- **Never Empty**: Always displays sponsors, falling back to defaults if none provided
-- **Smooth Animation**: Intelligent duplication for smooth infinite scroll with any number of sponsors
-- **Responsive Design**: Adapts to different screen sizes
-- **Accessibility**: Proper alt text and keyboard navigation
-- **Performance**: Lazy loading for images
-- **Customizable**: Custom titles and styling
+- **Comprehensive Documentation**: Complete guides and API references for Xibe AI
+- **Modern Tech Stack**: Built with Docusaurus 3, React, and TypeScript
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Search Functionality**: Fast, full-text search across all documentation
+- **Interactive Examples**: Code examples and live demos
+- **Version Management**: Support for multiple documentation versions
+- **Internationalization**: Ready for multi-language support
 
-## Usage
+## Development
 
-### Basic Usage
-```tsx
-import SponsorshipLogos from './src/components/SponsorshipLogos';
+### Prerequisites
+- Node.js 18.0 or later
+- npm or yarn package manager
 
-// Uses default sponsors
-<SponsorshipLogos />
+### Local Development
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+
+# Serve production build locally
+npm run serve
 ```
 
-### With Custom Sponsors
-```tsx
-const customSponsors = [
-  {
-    name: 'Company A',
-    logo: '/img/company-a.png',
-    url: 'https://company-a.com',
-    alt: 'Company A Logo'
-  },
-  {
-    name: 'Company B',
-    logo: '/img/company-b.png',
-    url: 'https://company-b.com',
-    alt: 'Company B Logo'
-  }
-];
+## Documentation Structure
 
-<SponsorshipLogos sponsors={customSponsors} />
-```
+The website includes several key sections:
 
-### With Custom Title
-```tsx
-<SponsorshipLogos title="Proudly Supported By" />
-```
+- **Getting Started**: Installation and setup guides
+- **Features**: Detailed feature documentation
+- **API Reference**: Complete API documentation
+- **Contributing**: Guidelines for contributors
+- **Support**: Help and troubleshooting resources
 
-## Props
+## Customization
 
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `sponsors` | `Sponsor[]` | `defaultSponsors` | Array of sponsor objects |
-| `className` | `string` | `''` | Additional CSS classes |
-| `title` | `string` | `'Sponsored by'` | Title text above the logos |
+The website can be customized by modifying:
 
-## Sponsor Object
+- `docusaurus.config.ts`: Site configuration and metadata
+- `sidebars.ts`: Documentation navigation structure
+- `src/`: Custom components and styling
+- `docs/`: Documentation content
 
-```tsx
-interface Sponsor {
-  name: string;        // Sponsor name
-  logo: string;        // Path to logo image
-  url?: string;        // Optional link URL
-  alt?: string;        // Optional alt text for image
-}
-```
+## Deployment
 
-## How It Works
-
-### Dynamic Sponsor Handling
-- If you provide 3+ sponsors: Uses them as-is for smooth animation
-- If you provide 1-2 sponsors: Automatically duplicates them to ensure smooth scrolling
-- If you provide 0 sponsors: Falls back to default sponsors
-
-### Animation Duration
-- Automatically calculates animation duration based on number of sponsors
-- More sponsors = longer duration for better user experience
-- Range: 15-30 seconds
-
-### Infinite Scroll
-- Creates two identical sets of logos for seamless looping
-- CSS animation handles the smooth transition
-- Animation pauses on hover for better UX
-
-## Default Sponsors
-
-The component includes these real sponsors:
-- Layer7 Networks
-- SWAT GAMING YT
-
-*More sponsors can be easily added to the `defaultSponsors` array as they come in.*
-
-## Styling
-
-The component uses CSS modules with extensive styling including:
-- Dark/light theme support
-- Responsive design
-- Hover effects
-- Accessibility features
-- Reduced motion support
-
-## Examples
-
-See `example-usage.tsx` for comprehensive usage examples including:
-- Default sponsors (2 real sponsors)
-- Future scenario (4 sponsors)
-- Single sponsor (duplicated for smooth animation)
-- Empty sponsors array (uses defaults)
-- Custom titles
-
-## Browser Support
-
-- Modern browsers with CSS Grid and Flexbox support
-- Graceful degradation for older browsers
-- Reduced motion support for accessibility
+The website is automatically deployed using GitHub Pages. For more information, see the Docusaurus deployment documentation.

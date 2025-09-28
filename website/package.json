@@ -1,7 +1,8 @@
 {
-  "name": "website",
+  "name": "xibe-ai-website",
   "version": "0.0.0",
   "private": true,
+  "description": "Documentation website for Xibe AI - Advanced AI-powered development platform",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

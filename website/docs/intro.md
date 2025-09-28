@@ -1,18 +1,24 @@
 ---
 slug: /
-title: Welcome to CodeX
+title: Welcome to Xibe AI
 sidebar_position: 1
 ---
 
-# Welcome to CodeX 🚀
+# Welcome to Xibe AI 🚀
 
-**CodeX** is your free, collaborative AI development platform that empowers developers with intelligent coding assistance, seamless workflow automation, and access to 40+ AI models.
+**Xibe AI** is your free, collaborative AI development platform that empowers developers with intelligent coding assistance, seamless workflow automation, and access to 40+ AI models.
 
-<a href="https://www.producthunt.com/products/codex-6?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-codex&#0045;4" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1009660&theme=light&t=1756298264612" alt="CodeX - Build&#0032;webapps&#0032;in&#0032;minutes&#0032;for&#0032;complelty&#0032;free | Product Hunt" style={{width: '250px', height: '54px'}} width="250" height="54" /></a>
+<div style={{color: 'red', fontWeight: 'bold', padding: '10px', backgroundColor: '#ffe6e6', border: '1px solid #ffcccc', borderRadius: '5px', margin: '10px 0'}}>
 
-## **See CodeX in Action**
+**📢 Rebranding Notice**: We have recently renamed from CodeX to Xibe AI to better reflect our vision and capabilities. All features and functionality remain the same!
 
-Watch this demonstration video to see how CodeX transforms your development workflow:
+</div>
+
+<a href="https://www.producthunt.com/products/codex-6?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-codex&#0045;4" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1009660&theme=light&t=1756298264612" alt="Xibe AI - Build&#0032;webapps&#0032;in&#0032;minutes&#0032;for&#0032;complelty&#0032;free | Product Hunt" style={{width: '250px', height: '54px'}} width="250" height="54" /></a>
+
+## **See Xibe AI in Action**
+
+Watch this demonstration video to see how Xibe AI transforms your development workflow:
 
 <div style={{textAlign: 'center', margin: '2rem 0'}}>
   <video 
@@ -30,17 +36,17 @@ Watch this demonstration video to see how CodeX transforms your development work
   </video>
 </div>
 
-*This video showcases the key features and capabilities of CodeX in real-world usage scenarios.*
+*This video showcases the key features and capabilities of Xibe AI in real-world usage scenarios.*
 
 ---
 
 ## 🎯 **The Future of Vibe Coding**
 
-CodeX is at the forefront of the **vibe coding revolution** - a new approach to software development where developers express ideas in natural language and AI transforms them into working code. This paradigm shift, popularized by computer scientist Andrej Karpathy, focuses on outcomes over syntax, creativity over boilerplate.
+Xibe AI is at the forefront of the **vibe coding revolution** - a new approach to software development where developers express ideas in natural language and AI transforms them into working code. This paradigm shift, popularized by computer scientist Andrej Karpathy, focuses on outcomes over syntax, creativity over boilerplate.
 
 ### 🆚 **How We Compare to Leading Vibe Coding Tools**
 
-| Feature | **CodeX** | Cursor | Windsurf | Bolt.new | Lovable | V0.dev | GitHub Copilot | Cline | Replit |
+| Feature | **Xibe AI** | Cursor | Windsurf | Bolt.new | Lovable | V0.dev | GitHub Copilot | Cline | Replit |
 |---------|-------------------|--------|----------|----------|---------|---------|----------------|-------|--------|
 | **💰 Price** | ✅ **100% Free** | 💰 $20/month | 💰 $15/month | 💰 $20/month | 💰 $20/month | 💰 $20/month | 💰 $10/month | 💰 $15/month | 💰 $7/month |
 | **🤖 AI Models** | ✅ **40+ Models** | ⚠️ 4-5 models | ⚠️ 3-4 models | ⚠️ 2-3 models | ❌ Limited | ❌ GPT only | ❌ GitHub only | ⚠️ Few models | ⚠️ Limited |
@@ -57,7 +63,7 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 
 *Source: [Vibe Code Careers](https://www.vibecodecareers.com/vibe-coding-tools) comprehensive analysis*
 
-### 🏆 **Why CodeX Leads the Vibe Coding Revolution**
+### 🏆 **Why Xibe AI Leads the Vibe Coding Revolution**
 
 #### **💰 Completely Free Forever**
 - **Save $240-360/year** compared to premium alternatives
@@ -70,9 +76,9 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 - **OpenAI**: GPT-5, GPT-4o, GPT-4.1, GPT-4.1-mini, GPT-4.1-nano
 - **Anthropic**: Claude 4 Sonnet, Claude 3.7 Sonnet, Claude 3.5 Sonnet, Claude 3.5 Haiku
 - **Google**: Gemini 2.5 Pro, Gemini 2.5 Flash
-- **CodeX Provider**: 24+ free models including vision, audio, reasoning, and tools models
+- **Xibe AI Provider**: 24+ free models including vision, audio, reasoning, and tools models
 - **Local Models**: Ollama, LM Studio integration
-- **CodeX Auto**: Intelligent automatic model selection
+- **Xibe AI Auto**: Intelligent automatic model selection
 - **Switch models instantly** based on task requirements
 
 #### **🔒 Privacy-First Architecture**
@@ -102,13 +108,13 @@ CodeX is at the forefront of the **vibe coding revolution** - a new approach to 
 
 ### ☁️ **Vercel Integration - Deploy Instantly**
 
-CodeX provides seamless **one-click deployment** to Vercel, making it the only vibe coding tool with direct cloud deployment capabilities:
+Xibe AI provides seamless **one-click deployment** to Vercel, making it the only vibe coding tool with direct cloud deployment capabilities:
 
 #### **Features:**
 - **🚀 One-Click Deploy**: Deploy your entire project to Vercel with a single click
-- **🔄 Auto-Sync**: Automatic synchronization between CodeX and Vercel
+- **🔄 Auto-Sync**: Automatic synchronization between Xibe AI and Vercel
 - **📊 Live Preview**: Get instant live URLs for your deployed applications
-- **🛠️ Environment Variables**: Manage environment variables directly in CodeX
+- **🛠️ Environment Variables**: Manage environment variables directly in Xibe AI
 - **📈 Analytics**: View deployment analytics and performance metrics
 - **🔄 Auto-Redeploy**: Automatic redeployment on code changes
 - **🌍 Global CDN**: Your apps are deployed to Vercel's global edge network
@@ -124,15 +130,15 @@ CodeX provides seamless **one-click deployment** to Vercel, making it the only v
 - **Full-Stack**: Database + Frontend + API
 
 #### **Deployment Process:**
-1. **Connect Vercel**: Link your Vercel account in CodeX settings
-2. **Build Project**: CodeX automatically builds your project
+1. **Connect Vercel**: Link your Vercel account in Xibe AI settings
+2. **Build Project**: Xibe AI automatically builds your project
 3. **Deploy**: One-click deployment to Vercel
 4. **Live URL**: Get instant access to your deployed application
 5. **Monitor**: Track performance and analytics
 
 ### 🗄️ **Supabase Integration - Database & Backend**
 
-**Coming Soon!** CodeX will include full Supabase integration for complete backend-as-a-service:
+**Coming Soon!** Xibe AI will include full Supabase integration for complete backend-as-a-service:
 
 #### **Planned Features:**
 - **📊 Database Management**: Create and manage Supabase databases
@@ -146,7 +152,7 @@ CodeX provides seamless **one-click deployment** to Vercel, making it the only v
 
 ### 🔗 **GitHub Integration - Version Control**
 
-Complete GitHub integration for professional development workflows:
+Complete GitHub integration for professional development workflows with Xibe AI:
 
 #### **Features:**
 - **📂 Repository Management**: Create, clone, and manage GitHub repositories
@@ -161,7 +167,7 @@ Complete GitHub integration for professional development workflows:
 ### 🛠️ **Development Tools Integration**
 
 #### **Built-in Terminal**
-- **💻 Full Terminal**: Complete terminal access within CodeX
+- **💻 Full Terminal**: Complete terminal access within Xibe AI
 - **📦 Package Management**: npm, yarn, pnpm support
 - **🔧 Build Tools**: Webpack, Vite, Rollup integration
 - **🐳 Docker**: Docker container management
@@ -233,7 +239,7 @@ Complete GitHub integration for professional development workflows:
 
 ## 🚀 **Seamless Migration from Any Platform**
 
-**Switching to CodeX is effortless:**
+**Switching to Xibe AI is effortless:**
 
 - **From Cursor**: Keep your preferred models, gain 35+ more options
 - **From Windsurf**: Import projects, enhance with local models
@@ -290,7 +296,7 @@ Complete GitHub integration for professional development workflows:
 ## 🚀 **Get Started Today**
 
 ### **Download & Install**
-1. **Download CodeX**: Get the latest version from [GitHub Releases](https://github.com/iotserver24/codex/releases)
+1. **Download Xibe AI**: Get the latest version from [GitHub Releases](https://github.com/iotserver24/codex/releases)
 2. **Install**: Run the installer for your operating system
 3. **Launch**: Start coding with AI assistance immediately
 
@@ -301,11 +307,11 @@ Complete GitHub integration for professional development workflows:
 4. **Deploy**: Deploy your first project to Vercel with one click
 
 ### **Join the Community**
-- **Discord**: [Join our Discord community](https://discord.gg/codex)
+- **Discord**: [Join our Discord community](https://discord.gg/xibeai)
 - **GitHub**: [Star us on GitHub](https://github.com/iotserver24/codex)
-- **Twitter**: [Follow us on Twitter](https://twitter.com/codex_ai)
-- **Documentation**: [Read our docs](https://codex.anishkumar.tech/docs)
+- **Twitter**: [Follow us on Twitter](https://twitter.com/xibe_ai)
+- **Documentation**: [Read our docs](https://xibe.app/docs)
 
 ---
 
-**Ready to revolutionize your development workflow? Download CodeX today and experience the future of AI-powered coding! 🚀**
+**Ready to revolutionize your development workflow? Download Xibe AI today and experience the future of AI-powered coding! 🚀**
