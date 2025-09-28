@@ -6,18 +6,6 @@
       "isLatest": true,
       "isStable": true,
       "description": "Complete app rebrand to Xibe AI with MCP tools integration, enhanced Agent-MCP mode, share preview option, and universal thinking support. All Pro features now free!",
-      "changes": [
-        "🎯 **Complete app rebrand** - Renamed from CodeX to Xibe AI with new visual identity",
-        "🔧 **MCP Tools Integration** - Connect external tools via Model Context Protocol",
-        "🤖 **Enhanced Agent-MCP Mode** - Advanced AI agent with tool orchestration capabilities",
-        "🌐 **Share Preview Option** - Test shared apps before publishing",
-        "🧠 **Universal Thinking Support** - All AI models now support advanced reasoning",
-        "🌐 **E2B Integration** - Share app previews with secure sandboxes",
-        "🆓 **Free Pro Features** - All premium features now available at no cost",
-        "📚 **Documentation Updates** - Comprehensive guides for all new features",
-        "🚀 **Performance Improvements** - Faster startup and better memory management",
-        "🎨 **UI/UX Enhancements** - New Xibe AI visual identity throughout the application"
-      ],
       "downloads": {
         "windows": [
           {
@@ -300,19 +288,7 @@
     "date": "2025-01-28",
     "isLatest": true,
     "isStable": true,
-    "description": "Complete app rebrand to Xibe AI with MCP tools integration, enhanced Agent-MCP mode, share preview option, and universal thinking support. All Pro features now free!",
-    "changes": [
-      "🎯 **Complete app rebrand** - Renamed from CodeX to Xibe AI with new visual identity",
-      "🔧 **MCP Tools Integration** - Connect external tools via Model Context Protocol",
-      "🤖 **Enhanced Agent-MCP Mode** - Advanced AI agent with tool orchestration capabilities",
-      "🌐 **Share Preview Option** - Test shared apps before publishing",
-      "🧠 **Universal Thinking Support** - All AI models now support advanced reasoning",
-      "🌐 **E2B Integration** - Share app previews with secure sandboxes",
-      "🆓 **Free Pro Features** - All premium features now available at no cost",
-      "📚 **Documentation Updates** - Comprehensive guides for all new features",
-      "🚀 **Performance Improvements** - Faster startup and better memory management",
-      "🎨 **UI/UX Enhancements** - New Xibe AI visual identity throughout the application"
-    ]
+    "description": "Complete app rebrand to Xibe AI with MCP tools integration, enhanced Agent-MCP mode, share preview option, and universal thinking support. All Pro features now free!"
   },
   "totalVersions": 5,
   "apiInfo": {
