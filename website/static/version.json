@@ -1,26 +1,26 @@
 {
+  "updatedAt": "2025-10-02T14:11:27.627Z",
   "stable": {
-    "version": "1.2.3",
-    "downloadUrl": "https://github.com/iotserver24/codex/releases/latest",
+    "version": "1.2.5",
+    "downloadUrl": "https://github.com/iotserver24/codex-final-app/releases/tag/v1.2.5",
     "downloadPageUrl": "https://xibe.app/download",
-    "releaseNotes": "Xibe AI 1.2.3 stable release.",
-    "readmeMarkdown": "# Xibe AI 1.2.3 (Stable)\n\n- Complete app rebrand to Xibe AI\n- MCP tools integration\n- Enhanced Agent-MCP mode\n- Share preview option\n- Universal thinking support\n- All Pro features are now free!\n\nVisit the download page for installers.",
+    "releaseNotes": "Xibe AI 1.2.5 stable release.",
+    "readmeMarkdown": "# Xibe AI v1.2.5\n\nDate: 2025-10-02\n\n## 🚀 What's New\n\n- Switched update source to `http://api.xibe.app/api/releases/latest` with platform-aware assets.\n- Update dialogs now render rich Markdown (GFM) with safe inline media (images, audio, video).\n- Single, system-detected download button in the update modal for a simpler UX.\n- Wider update modal and taller changelog viewport for better readability.\n- New Donate popup with three options:\n  - Razorpay (India): `https://razorpay.me/@megavault`\n  - Buy Me a Coffee: `https://buymeacoffee.com/r3ap3redit`\n  - Polar: `https://buy.polar.sh/polar_cl_NR3IF9VYKBFO5QHq4Vi8fLGLGpC3Mb6h3EU5r3Crspl`\n- Smarter Model Picker: clearer model groups (cloud and local), cleaner names, and fast access to the models you actually use.\n- Safer Send Flow: the Send button now stays disabled when an approval is required, preventing accidental submits.\n- Simpler Provider Setup: clearer status for provider configuration and a more direct path to being “ready to use.”\n- Better App Mentions: improved handling when referencing other apps so context is gathered more reliably.\n\n## 🧩 Features\n\n- Update system rework with platform-targeted URLs and renderer-side UI revamp\n- Inline changelog rendered with GFM + media (images, audio, video)\n- Single-click “Download for <platform>” button using system detection\n- Donate dialog with multi-provider support (Razorpay, Buy Me a Coffee, Polar)\n- Enhanced model selection experience with grouped providers and quick filtering of relevant options\n\n## 🛠 Improvements\n\n- Unified update check flow; removed duplicate update popup instances.\n- Accessibility: every dialog now includes `DialogTitle` and `DialogDescription`.\n- Updated documentation/donation links to the new domain `https://docs.xibe.app/`.\n- Cleaned linter issues and removed unused imports/handlers.\n- Model Picker polish: clearer labels, better ordering, and smarter visibility based on your plan.\n- Chat input ergonomics: avoids unintended sends while a code change is awaiting your approval.\n- Provider settings clarity: easier to see when a provider is configured and what’s missing.\n- Mentioned apps are resolved more consistently when you reference them in chats.\n\n## 🔐 Security & Stability\n\n- Enabled sanitized HTML in markdown via `rehype-raw` + `rehype-sanitize` to prevent unsafe content.\n- Kept iframes/scripts blocked by default in markdown for Electron security.\n- More resilient startup paths and graceful fallbacks in edge cases to reduce spurious errors.\n\n## 📦 Developer Notes\n\n- New deps: `rehype-raw`, `rehype-sanitize`.\n- Version bumped in `package.json` to `1.2.5`.\n\n---\n\nNeed help or want to learn more?\n\n- Website: https://xibe.app\n- Docs: https://docs.xibe.app/docs\n------\nmade with ❤️ by Xibe AI",
     "updateNotice": "Important: If macOS Gatekeeper warns, right-click the app and choose Open.",
     "updateInfo": [
-      "Rebranded app to Xibe AI",
-      "Integrated MCP tools",
-      "Agent-MCP mode enhanced",
-      "Added share preview option",
-      "Universal thinking support enabled",
-      "All Pro features unlocked for free"
+      "Switched update source to api.xibe.app",
+      "Markdown changelog with safe media",
+      "Single-click platform download button",
+      "Donate dialog (Razorpay / BMaC / Polar)",
+      "Improved model picker and provider setup"
     ]
   },
   "beta": {
-    "version": "1.2.3-beta",
-    "downloadUrl": "https://github.com/iotserver24/codex/releases/tag/v1.2.2",
+    "version": "1.2.5-beta",
+    "downloadUrl": "https://github.com/iotserver24/codex-final-app/releases/tag/v1.2.5",
     "downloadPageUrl": "https://xibe.app/download/beta",
-    "releaseNotes": "Xibe AI 1.2.3 beta.",
-    "readmeMarkdown": "# Xibe AI 1.2.3 (Beta)\n\n- Same as Stable but with experimental fixes\n- Early access to patches before stable rollout\n\nUse the Beta download page for OS-specific installers.",
+    "releaseNotes": "Xibe AI 1.2.5 beta.",
+    "readmeMarkdown": "# Xibe AI v1.2.5 (Beta)\n\n- Same as Stable but with experimental fixes\n- Early access to patches before stable rollout\n\nUse the Beta download page for OS-specific installers.",
     "updateNotice": "Note: Beta builds may contain experimental changes.",
     "updateInfo": [
       "Experimental fixes added",
@@ -28,3 +28,5 @@
     ]
   }
 }
+
+
