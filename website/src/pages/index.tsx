@@ -66,12 +66,6 @@ function HeroSection() {
             
             <div ref={buttonsRef} className={styles.heroButtons}>
               <Link 
-                className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
-                to="/download"
-              >
-                <RocketIcon size={20} /> Download Xibe AI Free
-              </Link>
-              <Link 
                 className={clsx('button', 'button--outline', 'button--lg', styles.secondaryButton)}
                 to="/docs"
               >
@@ -270,7 +264,7 @@ function ModelsSection() {
         
         <div className={styles.modelsCTA}>
           <p>And 19+ more models available...</p>
-          <Link to="/download" className={styles.modelsButton}>
+          <Link to="/docs" className={styles.modelsButton}>
             Start Building with AI
           </Link>
         </div>
@@ -360,17 +354,17 @@ function CTASection() {
             Join thousands of developers who are already building faster, smarter, and more efficiently with AI assistance
           </p>
           <div className={styles.ctaButtons}>
-            <Link 
-              className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
-              to="/download"
-            >
-              🚀 Download Xibe AI Free
-            </Link>
             <Link
               className={clsx('button', 'button--outline', 'button--lg', styles.ctaSecondary)}
               to="/docs"
             >
               📚 View Documentation
+            </Link>
+            <Link 
+              className={clsx('button', 'button--primary', 'button--lg', styles.ctaButton)}
+              to="/docs"
+            >
+              🚀 Get Started
             </Link>
           </div>
           <div className={styles.ctaFeatures}>
