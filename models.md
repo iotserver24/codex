@@ -37,6 +37,23 @@ All Pollination AI models are free to use:
 | gemini-2.5-pro-preview-05-06    | Gemini 2.5 Pro (Preview)             | Paid         |
 | gemini-2.5-flash-preview-05-20  | Gemini 2.5 Flash (Preview)           | **Free Tier**|
 
+### AgentRouter (Free Tier Available)
+> **🎉 Special Offer**: AgentRouter provides **$200 in free credits** to get you started! All models below are available with this generous free tier.
+
+| Model Name                          | Description                           | Notes        |
+|-------------------------------------|---------------------------------------|--------------|
+| gpt-5                              | OpenAI's most advanced model         | **Free**     |
+| claude-3-5-haiku-20241022          | Claude 3.5 Haiku                      | **Free**     |
+| claude-haiku-4-5-20251001          | Claude Haiku 4.5                      | **Free**     |
+| claude-sonnet-4-20250514           | Claude 4 Sonnet                       | **Free**     |
+| claude-sonnet-4-5-20250929         | Claude Sonnet 4.5                     | **Free**     |
+| deepseek-r1-0528                   | DeepSeek R1 reasoning model           | **Free**     |
+| deepseek-v3.1                      | DeepSeek v3.1                         | **Free**     |
+| deepseek-v3.2                      | DeepSeek v3.2                         | **Free**     |
+| glm-4.5                            | GLM-4.5 model                         | **Free**     |
+| glm-4.6                            | GLM-4.6 model                         | **Free**     |
+| grok-code-fast-1                   | Grok Code Fast 1                      | **Free**     |
+
 ### OpenRouter (Free Tier Available)
 | Model Name                          | Description                           | Notes        |
 |-------------------------------------|---------------------------------------|--------------|

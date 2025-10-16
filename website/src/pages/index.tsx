@@ -51,6 +51,31 @@ function HeroSection() {
           </div>
         </div>
 
+        {/* AgentRouter Support Notice */}
+        <div style={{
+          background: 'rgba(255, 0, 0, 0.1)',
+          border: '2px solid rgba(255, 0, 0, 0.4)',
+          borderRadius: '8px',
+          padding: '12px 16px',
+          marginBottom: '24px',
+          textAlign: 'center',
+          color: '#ff0000',
+          fontSize: '14px',
+          fontWeight: '600',
+          backdropFilter: 'blur(10px)',
+          maxWidth: '600px',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          boxShadow: '0 4px 15px rgba(255, 0, 0, 0.2)'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+            <span>🚀</span>
+            <span>
+              <strong>NEW:</strong> agentrouter.org is now supported with $200 free credits!
+            </span>
+          </div>
+        </div>
+
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading ref={titleRef} as="h1" className={styles.heroTitle}>
@@ -59,7 +84,7 @@ function HeroSection() {
               <br />Development
             </Heading>
             <p ref={subtitleRef} className={styles.heroSubtitle}>
-              Xibe AI is a revolutionary AI development platform that combines 27+ AI models,
+              Xibe AI is a revolutionary AI development platform that combines 40+ AI models,
               intelligent code generation, and seamless workflow automation. Build faster,
               smarter, and more efficiently with the power of AI.
             </p>
@@ -91,7 +116,7 @@ function HeroSection() {
             
             <div ref={statsRef} className={styles.heroStats}>
               <div className={styles.stat}>
-                <span className={styles.statNumber}>27+</span>
+                <span className={styles.statNumber}>40+</span>
                 <span className={styles.statLabel}>AI Models</span>
               </div>
               <div className={styles.stat}>
@@ -158,8 +183,8 @@ function FeaturesSection() {
   const features = [
     {
       icon: '🤖',
-      title: '27+ AI Models',
-      description: 'Access Claude 3.5 Haiku, Gemini 2.5 Flash, GPT-4, and 25+ other AI models. Switch between models instantly for the best results.',
+      title: '40+ AI Models',
+      description: 'Access Claude 3.5 Haiku, Gemini 2.5 Flash, GPT-5, and 37+ other AI models. Switch between models instantly for the best results.',
       gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
     },
     {
@@ -230,12 +255,12 @@ function ModelsSection() {
   const models = [
     { name: 'Claude 3.5 Haiku', type: 'Free', color: '#FF6B6B' },
     { name: 'Gemini 2.5 Flash', type: 'Free', color: '#4ECDC4' },
-    { name: 'GPT-4', type: 'Premium', color: '#45B7D1' },
-    { name: 'Claude 3.5 Sonnet', type: 'Premium', color: '#96CEB4' },
+    { name: 'GPT-5', type: 'Free', color: '#FF0000' },
+    { name: 'Claude 4 Sonnet', type: 'Free', color: '#96CEB4' },
     { name: 'DeepSeek R1', type: 'Free', color: '#FFEAA7' },
-    { name: 'GLM-4 9B', type: 'Free', color: '#DDA0DD' },
-    { name: 'Llama 3.2 1B', type: 'Free', color: '#98D8C8' },
-    { name: 'Mistral Small', type: 'Free', color: '#F7DC6F' }
+    { name: 'GLM-4.6', type: 'Free', color: '#DDA0DD' },
+    { name: 'Grok Code Fast', type: 'Free', color: '#98D8C8' },
+    { name: 'DeepSeek v3.2', type: 'Free', color: '#F7DC6F' }
   ];
 
 
@@ -244,7 +269,7 @@ function ModelsSection() {
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
-            Powered by 27+ AI Models
+            Powered by 40+ AI Models
           </Heading>
           <p className={styles.sectionSubtitle}>
             Access the world's most advanced AI models for coding, design, and development
@@ -263,7 +288,7 @@ function ModelsSection() {
         </div>
         
         <div className={styles.modelsCTA}>
-          <p>And 19+ more models available...</p>
+          <p>And 32+ more models available...</p>
           <Link to="/docs" className={styles.modelsButton}>
             Start Building with AI
           </Link>
@@ -294,8 +319,8 @@ function VideoSection() {
       text: "Commit, branch, and review – all inside your AI workflow."
     },
     {
-      title: "27+ Models, Free",
-      text: "Claude 3.5 Haiku, Gemini 2.5 Flash, and many more at your fingertips."
+      title: "40+ Models, Free",
+      text: "Claude 3.5 Haiku, Gemini 2.5 Flash, GPT-5, and many more at your fingertips."
     }
   ];
 
@@ -368,7 +393,7 @@ function CTASection() {
             </Link>
           </div>
           <div className={styles.ctaFeatures}>
-            <span>✓ 27+ AI Models</span>
+            <span>✓ 40+ AI Models</span>
             <span>✓ Designer Mode (Beta)</span>
             <span>✓ Auto-Fix Problems</span>
             <span>✓ Native Git Support</span>
