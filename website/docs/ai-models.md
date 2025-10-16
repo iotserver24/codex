@@ -62,6 +62,23 @@ All Xibe AI Provider models are free to use:
 | gemini-2.5-pro                  | Gemini 2.5 Pro                       | Paid         |
 | gemini-2.5-flash                | Gemini 2.5 Flash                     | **Free Tier**|
 
+#### AgentRouter (Free Tier Available)
+> **🎉 Special Offer**: AgentRouter provides **$200 in free credits** to get you started! All models below are available with this generous free tier.
+
+| Model Name                          | Description                           | Notes        | Free Tier |
+|-------------------------------------|---------------------------------------|--------------|-----------|
+| gpt-5                              | OpenAI's most advanced model         | **Free**     | ✅ |
+| claude-3-5-haiku-20241022          | Claude 3.5 Haiku                      | **Free**     | ✅ |
+| claude-haiku-4-5-20251001          | Claude Haiku 4.5                      | **Free**     | ✅ |
+| claude-sonnet-4-20250514           | Claude 4 Sonnet                       | **Free**     | ✅ |
+| claude-sonnet-4-5-20250929         | Claude Sonnet 4.5                     | **Free**     | ✅ |
+| deepseek-r1-0528                   | DeepSeek R1 reasoning model           | **Free**     | ✅ |
+| deepseek-v3.1                      | DeepSeek v3.1                         | **Free**     | ✅ |
+| deepseek-v3.2                      | DeepSeek v3.2                         | **Free**     | ✅ |
+| glm-4.5                            | GLM-4.5 model                         | **Free**     | ✅ |
+| glm-4.6                            | GLM-4.6 model                         | **Free**     | ✅ |
+| grok-code-fast-1                   | Grok Code Fast 1                      | **Free**     | ✅ |
+
 #### OpenRouter (Free Tier Available)
 | Model Name                          | Description                           | Notes        |
 |-------------------------------------|---------------------------------------|--------------|
@@ -112,16 +129,16 @@ All Xibe AI Provider models are free to use:
 ### For Code Generation
 - **Best**: gpt-5, gpt-4.1, claude-sonnet-4-20250514, qwen-coder
 - **Fast**: gpt-5-mini, gpt-4.1-mini, claude-3-5-haiku-20241022, openai-fast, nova-fast
-- **Free**: openai, mistral, deepseek, llama-roblox, mistral-nemo-roblox
+- **Free**: openai, mistral, deepseek, llama-roblox, mistral-nemo-roblox, gpt-5 (AgentRouter), claude-sonnet-4-20250514 (AgentRouter), deepseek-v3.2 (AgentRouter), grok-code-fast-1 (AgentRouter)
 
 ### For Code Review
 - **Best**: gpt-5, gpt-4.1, claude-sonnet-4-20250514
 - **Fast**: gpt-5-mini, gpt-4.1-mini, claude-3-5-sonnet-20241022
-- **Free**: openai-large, mistral
+- **Free**: openai-large, mistral, gpt-5 (AgentRouter), claude-sonnet-4-20250514 (AgentRouter), claude-sonnet-4-5-20250929 (AgentRouter)
 
 ### For Reasoning Tasks
 - **Best**: deepseek-reasoning, o3-mini, o4-mini
-- **Free**: deepseek-reasoning, openai-reasoning
+- **Free**: deepseek-reasoning, openai-reasoning, deepseek-r1-0528 (AgentRouter)
 
 ### For Vision Tasks
 - **Best**: gpt-4o, gpt-4.1, mirexa
